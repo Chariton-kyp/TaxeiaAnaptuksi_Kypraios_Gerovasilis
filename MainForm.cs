@@ -29,9 +29,11 @@ namespace TaxeiaAnaptuksi_Gerovasilis_Kypraios
 
         private void linkLabel2_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            Form1 f1 = new Form1();
-            f1.Show();
             this.Hide();
+            Login login = new Login();
+            login.ShowDialog();
+            this.Close();
+
         }
     }
 }

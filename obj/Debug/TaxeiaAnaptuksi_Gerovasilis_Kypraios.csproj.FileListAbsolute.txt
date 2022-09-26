@@ -41,3 +41,4 @@ C:\Users\gerob\OneDrive\Desktop\ErgasiaTaxeiaAnaptuksi\TaxeiaAnaptuksi_Kypraios_
 C:\Users\gerob\OneDrive\Desktop\ErgasiaTaxeiaAnaptuksi\TaxeiaAnaptuksi_Kypraios_Gerovasilis\obj\Debug\TaxeiaAnaptuksi_Gerovasilis_Kypraios.csproj.CopyComplete
 C:\Users\gerob\OneDrive\Desktop\ErgasiaTaxeiaAnaptuksi\TaxeiaAnaptuksi_Kypraios_Gerovasilis\obj\Debug\TaxeiaAnaptuksi_Gerovasilis_Kypraios.exe
 C:\Users\gerob\OneDrive\Desktop\ErgasiaTaxeiaAnaptuksi\TaxeiaAnaptuksi_Kypraios_Gerovasilis\obj\Debug\TaxeiaAnaptuksi_Gerovasilis_Kypraios.pdb
+C:\Users\harit\Desktop\Μαθήματα Μεταπτυχιακό\Ταχεία Ανάπτυξη Εφαρμογών - C#\εργασία\TaxeiaAnaptuksi_Gerovasilis_Kypraios\obj\Debug\TaxeiaAnaptuksi_Gerovasilis_Kypraios.Login.resources
