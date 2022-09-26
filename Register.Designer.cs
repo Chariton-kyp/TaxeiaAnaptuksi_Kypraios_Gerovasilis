@@ -115,7 +115,7 @@
             this.Submit.ForeColor = System.Drawing.Color.White;
             this.Submit.Location = new System.Drawing.Point(437, 382);
             this.Submit.Name = "Submit";
-            this.Submit.Size = new System.Drawing.Size(132, 28);
+            this.Submit.Size = new System.Drawing.Size(114, 55);
             this.Submit.TabIndex = 8;
             this.Submit.Text = "Submit";
             this.Submit.UseVisualStyleBackColor = false;
