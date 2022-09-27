@@ -16,7 +16,7 @@ namespace TaxeiaAnaptuksi_Gerovasilis_Kypraios
 
         private void Form1_Load(object sender, EventArgs e)
         {
-
+            connection = new SQLiteConnection(connectionString);
         }
 
         private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
