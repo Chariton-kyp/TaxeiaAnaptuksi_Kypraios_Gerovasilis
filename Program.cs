@@ -16,7 +16,7 @@ namespace TaxeiaAnaptuksi_Gerovasilis_Kypraios
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new MainForm());
+            Application.Run(new MainForm(""));
         }
     }
 }
