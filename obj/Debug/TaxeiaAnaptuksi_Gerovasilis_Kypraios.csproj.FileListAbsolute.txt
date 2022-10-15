@@ -32,7 +32,6 @@ C:\Users\gerob\OneDrive\Desktop\ErgasiaTaxeiaAnaptuksi\TaxeiaAnaptuksi_Kypraios_
 C:\Users\gerob\OneDrive\Desktop\ErgasiaTaxeiaAnaptuksi\TaxeiaAnaptuksi_Kypraios_Gerovasilis\bin\Debug\System.Data.SQLite.xml
 C:\Users\gerob\OneDrive\Desktop\ErgasiaTaxeiaAnaptuksi\TaxeiaAnaptuksi_Kypraios_Gerovasilis\obj\Debug\TaxeiaAnaptuksi_Gerovasilis_Kypraios.csproj.AssemblyReference.cache
 C:\Users\gerob\OneDrive\Desktop\ErgasiaTaxeiaAnaptuksi\TaxeiaAnaptuksi_Kypraios_Gerovasilis\obj\Debug\TaxeiaAnaptuksi_Gerovasilis_Kypraios.csproj.SuggestedBindingRedirects.cache
-C:\Users\gerob\OneDrive\Desktop\ErgasiaTaxeiaAnaptuksi\TaxeiaAnaptuksi_Kypraios_Gerovasilis\obj\Debug\TaxeiaAnaptuksi_Gerovasilis_Kypraios.Form1.resources
 C:\Users\gerob\OneDrive\Desktop\ErgasiaTaxeiaAnaptuksi\TaxeiaAnaptuksi_Kypraios_Gerovasilis\obj\Debug\TaxeiaAnaptuksi_Gerovasilis_Kypraios.MainForm.resources
 C:\Users\gerob\OneDrive\Desktop\ErgasiaTaxeiaAnaptuksi\TaxeiaAnaptuksi_Kypraios_Gerovasilis\obj\Debug\TaxeiaAnaptuksi_Gerovasilis_Kypraios.Properties.Resources.resources
 C:\Users\gerob\OneDrive\Desktop\ErgasiaTaxeiaAnaptuksi\TaxeiaAnaptuksi_Kypraios_Gerovasilis\obj\Debug\TaxeiaAnaptuksi_Gerovasilis_Kypraios.Register.resources
@@ -42,3 +41,4 @@ C:\Users\gerob\OneDrive\Desktop\ErgasiaTaxeiaAnaptuksi\TaxeiaAnaptuksi_Kypraios_
 C:\Users\gerob\OneDrive\Desktop\ErgasiaTaxeiaAnaptuksi\TaxeiaAnaptuksi_Kypraios_Gerovasilis\obj\Debug\TaxeiaAnaptuksi_Gerovasilis_Kypraios.exe
 C:\Users\gerob\OneDrive\Desktop\ErgasiaTaxeiaAnaptuksi\TaxeiaAnaptuksi_Kypraios_Gerovasilis\obj\Debug\TaxeiaAnaptuksi_Gerovasilis_Kypraios.pdb
 C:\Users\harit\Desktop\Μαθήματα Μεταπτυχιακό\Ταχεία Ανάπτυξη Εφαρμογών - C#\εργασία\TaxeiaAnaptuksi_Gerovasilis_Kypraios\obj\Debug\TaxeiaAnaptuksi_Gerovasilis_Kypraios.Login.resources
+C:\Users\gerob\OneDrive\Desktop\ErgasiaTaxeiaAnaptuksi\TaxeiaAnaptuksi_Kypraios_Gerovasilis\obj\Debug\TaxeiaAnaptuksi_Gerovasilis_Kypraios.Login.resources
