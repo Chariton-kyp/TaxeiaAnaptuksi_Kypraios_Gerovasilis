@@ -20,22 +20,23 @@ namespace TaxeiaAnaptuksi_Gerovasilis_Kypraios
                 label5.Visible = false;
                 linkLabel3.Visible = false;
                 return;
-            } else 
+            }
+            else
             {
                 label5.Text = "Current user: " + this.user;
                 linkLabel1.Visible = false;
                 linkLabel2.Visible = false;
                 label3.Visible = false;
                 linkLabel3.Visible = true;
-                
+
             }
         }
 
         private void Form1_Load(object sender, EventArgs e)
         {
             connection = new SQLiteConnection(connectionString);
-            
-            
+
+
         }
 
         private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
@@ -60,16 +61,22 @@ namespace TaxeiaAnaptuksi_Gerovasilis_Kypraios
             this.user = "anonymous";
             linkLabel1.Visible = true;
             linkLabel2.Visible = true;
-            label3.Visible  = true;
+            label3.Visible = true;
             linkLabel3.Visible = false;
-            
-
-            
+            label5.Visible = false;
         }
 
         private void label5_Click(object sender, EventArgs e)
         {
-           
+
+        }
+
+        private void reviewsToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            ReviewsForm reviewsForm = new ReviewsForm(this.user);
+            reviewsForm.ShowDialog();
+            this.Close();
         }
     }
 }

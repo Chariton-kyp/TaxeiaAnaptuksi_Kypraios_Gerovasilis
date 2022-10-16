@@ -64,3 +64,4 @@ C:\Users\harit\Desktop\Μαθήματα Μεταπτυχιακό\Ταχεία Α
 C:\Users\harit\Desktop\Μαθήματα Μεταπτυχιακό\Ταχεία Ανάπτυξη Εφαρμογών - C#\Teliki_Ergasia\TaxeiaAnaptuksi_Kypraios_Gerovasilis\obj\Debug\TaxeiaAnaptuksi_Gerovasilis_Kypraios.csproj.CopyComplete
 C:\Users\harit\Desktop\Μαθήματα Μεταπτυχιακό\Ταχεία Ανάπτυξη Εφαρμογών - C#\Teliki_Ergasia\TaxeiaAnaptuksi_Kypraios_Gerovasilis\obj\Debug\TaxeiaAnaptuksi_Gerovasilis_Kypraios.exe
 C:\Users\harit\Desktop\Μαθήματα Μεταπτυχιακό\Ταχεία Ανάπτυξη Εφαρμογών - C#\Teliki_Ergasia\TaxeiaAnaptuksi_Kypraios_Gerovasilis\obj\Debug\TaxeiaAnaptuksi_Gerovasilis_Kypraios.pdb
+C:\Users\harit\Desktop\Μαθήματα Μεταπτυχιακό\Ταχεία Ανάπτυξη Εφαρμογών - C#\Teliki_Ergasia\TaxeiaAnaptuksi_Kypraios_Gerovasilis\obj\Debug\TaxeiaAnaptuksi_Gerovasilis_Kypraios.ReviewsForm.resources
