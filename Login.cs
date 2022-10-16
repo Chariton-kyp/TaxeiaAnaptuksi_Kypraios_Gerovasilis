@@ -6,7 +6,7 @@ namespace TaxeiaAnaptuksi_Gerovasilis_Kypraios
 {
     public partial class Login : Form
     {
-        String connectionString = "Data source =Users.db;Version=3";
+        String connectionString = "Data source =Users.db;Version=3;Pooling=true";
         SQLiteConnection connection;
         string anonymous = "Visitor";
 
@@ -21,7 +21,7 @@ namespace TaxeiaAnaptuksi_Gerovasilis_Kypraios
             String email = textBox1.Text;
             String password = textBox2.Text;
 
-            String selectSQL = "SELECT * from Users where email='" + email + "' AND password='"+ password+"'";
+            String selectSQL = "SELECT * from Users where email='" + email + "' AND password='" + password + "'";
             SQLiteCommand selectCommand = new SQLiteCommand(selectSQL, connection);
             SQLiteDataReader reader = selectCommand.ExecuteReader();
 
