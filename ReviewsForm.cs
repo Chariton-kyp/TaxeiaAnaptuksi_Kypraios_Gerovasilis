@@ -6,8 +6,10 @@ namespace TaxeiaAnaptuksi_Gerovasilis_Kypraios
 {
     public partial class ReviewsForm : Form
     {
-        String connectionString = "Data source =Users.db;Version=3";
+        String connectionString = "Data source =Users.db;Version=3;Pooling=true";
+        String connectionString2 = "Data source =Reviews.db;Version=3;Pooling=true";
         SQLiteConnection connection;
+        SQLiteConnection connection2;
         String user;
         public ReviewsForm(String user)
         {
@@ -29,7 +31,9 @@ namespace TaxeiaAnaptuksi_Gerovasilis_Kypraios
 
         private void ReviewsForm_Load(object sender, EventArgs e)
         {
+
             connection = new SQLiteConnection(connectionString);
+            connection2 = new SQLiteConnection(connectionString2);
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -59,11 +63,15 @@ namespace TaxeiaAnaptuksi_Gerovasilis_Kypraios
                 MessageBox.Show("An error occurs. Please try again later!");
             }
 
+            connection.Close();
+
+            connection2.Open();
+
             try
             {
-                String insertSQL = "Insert into Reviews(description,usersId,title) " +
-                "values('" + description + "','" + usersId + "','" + title + "')";
-                SQLiteCommand cmd = new SQLiteCommand(insertSQL, connection);
+
+                String insertSQL = "Insert into Reviews (description,usersId,title) VALUES ('asdasasdadsfgdsfsdd',16,'23asdasd4saddas')";
+                SQLiteCommand cmd = new SQLiteCommand(insertSQL, connection2);
                 int count = cmd.ExecuteNonQuery();
                 if (count > 0)
                 {
@@ -75,7 +83,7 @@ namespace TaxeiaAnaptuksi_Gerovasilis_Kypraios
                 MessageBox.Show("An error occurs. Please try again later!");
             }
 
-            connection.Close();
+            connection2.Close();
 
 
         }

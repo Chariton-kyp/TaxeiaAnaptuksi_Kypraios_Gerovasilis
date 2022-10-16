@@ -59,9 +59,9 @@ C:\Users\harit\Desktop\Μαθήματα Μεταπτυχιακό\Ταχεία Α
 C:\Users\harit\Desktop\Μαθήματα Μεταπτυχιακό\Ταχεία Ανάπτυξη Εφαρμογών - C#\Teliki_Ergasia\TaxeiaAnaptuksi_Kypraios_Gerovasilis\obj\Debug\TaxeiaAnaptuksi_Gerovasilis_Kypraios.MainForm.resources
 C:\Users\harit\Desktop\Μαθήματα Μεταπτυχιακό\Ταχεία Ανάπτυξη Εφαρμογών - C#\Teliki_Ergasia\TaxeiaAnaptuksi_Kypraios_Gerovasilis\obj\Debug\TaxeiaAnaptuksi_Gerovasilis_Kypraios.Properties.Resources.resources
 C:\Users\harit\Desktop\Μαθήματα Μεταπτυχιακό\Ταχεία Ανάπτυξη Εφαρμογών - C#\Teliki_Ergasia\TaxeiaAnaptuksi_Kypraios_Gerovasilis\obj\Debug\TaxeiaAnaptuksi_Gerovasilis_Kypraios.Register.resources
+C:\Users\harit\Desktop\Μαθήματα Μεταπτυχιακό\Ταχεία Ανάπτυξη Εφαρμογών - C#\Teliki_Ergasia\TaxeiaAnaptuksi_Kypraios_Gerovasilis\obj\Debug\TaxeiaAnaptuksi_Gerovasilis_Kypraios.ReviewsForm.resources
 C:\Users\harit\Desktop\Μαθήματα Μεταπτυχιακό\Ταχεία Ανάπτυξη Εφαρμογών - C#\Teliki_Ergasia\TaxeiaAnaptuksi_Kypraios_Gerovasilis\obj\Debug\TaxeiaAnaptuksi_Gerovasilis_Kypraios.csproj.GenerateResource.cache
 C:\Users\harit\Desktop\Μαθήματα Μεταπτυχιακό\Ταχεία Ανάπτυξη Εφαρμογών - C#\Teliki_Ergasia\TaxeiaAnaptuksi_Kypraios_Gerovasilis\obj\Debug\TaxeiaAnaptuksi_Gerovasilis_Kypraios.csproj.CoreCompileInputs.cache
 C:\Users\harit\Desktop\Μαθήματα Μεταπτυχιακό\Ταχεία Ανάπτυξη Εφαρμογών - C#\Teliki_Ergasia\TaxeiaAnaptuksi_Kypraios_Gerovasilis\obj\Debug\TaxeiaAnaptuksi_Gerovasilis_Kypraios.csproj.CopyComplete
 C:\Users\harit\Desktop\Μαθήματα Μεταπτυχιακό\Ταχεία Ανάπτυξη Εφαρμογών - C#\Teliki_Ergasia\TaxeiaAnaptuksi_Kypraios_Gerovasilis\obj\Debug\TaxeiaAnaptuksi_Gerovasilis_Kypraios.exe
 C:\Users\harit\Desktop\Μαθήματα Μεταπτυχιακό\Ταχεία Ανάπτυξη Εφαρμογών - C#\Teliki_Ergasia\TaxeiaAnaptuksi_Kypraios_Gerovasilis\obj\Debug\TaxeiaAnaptuksi_Gerovasilis_Kypraios.pdb
-C:\Users\harit\Desktop\Μαθήματα Μεταπτυχιακό\Ταχεία Ανάπτυξη Εφαρμογών - C#\Teliki_Ergasia\TaxeiaAnaptuksi_Kypraios_Gerovasilis\obj\Debug\TaxeiaAnaptuksi_Gerovasilis_Kypraios.ReviewsForm.resources

@@ -6,7 +6,7 @@ namespace TaxeiaAnaptuksi_Gerovasilis_Kypraios
 {
     public partial class Register : Form
     {
-        String connectionString = "Data source =Users.db;Version=3";
+        String connectionString = "Data source =Users.db;Version=3;Pooling=true";
         SQLiteConnection connection;
 
         public Register()
@@ -57,6 +57,10 @@ namespace TaxeiaAnaptuksi_Gerovasilis_Kypraios
                 if (count > 0)
                 {
                     MessageBox.Show("Successfully registered");
+                    this.Hide();
+                    MainForm mainForm = new MainForm("");
+                    mainForm.ShowDialog();
+                    this.Close();
                 }
             }
             catch (Exception ex)

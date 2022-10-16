@@ -6,7 +6,7 @@ namespace TaxeiaAnaptuksi_Gerovasilis_Kypraios
 {
     public partial class MainForm : Form
     {
-        String connectionString = "Data source =Users.db;Version=3";
+        String connectionString = "Data source =Users.db;Version=3;Pooling=true";
         SQLiteConnection connection;
         public String user = "anonymous";
 
