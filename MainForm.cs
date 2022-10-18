@@ -34,6 +34,14 @@ namespace TaxeiaAnaptuksi_Gerovasilis_Kypraios
         private void Form1_Load(object sender, EventArgs e)
         {
             connection = new SQLiteConnection(connectionString);
+            pictureBox8.Visible = false;
+            pictureBox7.Visible = false;
+            pictureBox6.Visible = false;
+            pictureBox5.Visible = false;
+            pictureBox4.Visible = false;
+            pictureBox3.Visible = false;
+            pictureBox2.Visible = false;
+            timer1.Start();
             
             
         }
@@ -70,6 +78,82 @@ namespace TaxeiaAnaptuksi_Gerovasilis_Kypraios
         private void label5_Click(object sender, EventArgs e)
         {
            
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            //pictureBox1.ImageLocation = @"assets/Παπει.jpg";
+           // pictureBox1.ImageLocation = @"assets/Παπει Εισοδος.jpg";
+            
+        }
+
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            if (pictureBox1.Visible == true)
+            {
+                pictureBox1.Visible = false;
+                pictureBox2.Visible = true;
+            }
+
+            else if (pictureBox2.Visible == true)
+            {
+                pictureBox2.Visible = false;
+                pictureBox3.Visible = true;
+            }
+
+            else if (pictureBox3.Visible == true)
+            {
+                pictureBox3.Visible = false;
+                pictureBox4.Visible = true;
+            }
+
+            else if (pictureBox4.Visible == true)
+            {
+                pictureBox4.Visible = false;
+                pictureBox5.Visible = true;
+            }
+
+            else if (pictureBox5.Visible == true)
+            {
+                pictureBox5.Visible = false;
+                pictureBox6.Visible = true;
+            }
+
+            else if (pictureBox6.Visible == true)
+            {
+                pictureBox6.Visible = false;
+                pictureBox7.Visible = true;
+            }
+
+            else if (pictureBox7.Visible == true)
+            {
+                pictureBox7.Visible = false;
+                pictureBox8.Visible = true;
+            }
+
+            else if (pictureBox8.Visible == true)
+            {
+                pictureBox8.Visible = false;
+                pictureBox1.Visible = true;
+            }
+        }
+
+        private void dateTimePicker1_ValueChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void monthCalendar1_DateChanged(object sender, DateRangeEventArgs e)
+        {
+
+        }
+
+        private void ημερολόγιοΕκδηλώσεωνToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Calendar calendar = new Calendar();
+            calendar.ShowDialog();
+            this.Close();
         }
     }
 }
