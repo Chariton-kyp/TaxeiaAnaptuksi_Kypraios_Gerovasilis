@@ -35,6 +35,8 @@
             this.label2 = new System.Windows.Forms.Label();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.mainToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.ημερολόγιοΕκδηλώσεωνToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.χρόνιαΠανεπιστήμιοΠειραιώςToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.linkLabel1 = new System.Windows.Forms.LinkLabel();
             this.linkLabel2 = new System.Windows.Forms.LinkLabel();
             this.label3 = new System.Windows.Forms.Label();
@@ -42,26 +44,26 @@
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.pictureBox5 = new System.Windows.Forms.PictureBox();
-            this.pictureBox6 = new System.Windows.Forms.PictureBox();
-            this.pictureBox7 = new System.Windows.Forms.PictureBox();
-            this.pictureBox8 = new System.Windows.Forms.PictureBox();
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.monthCalendar1 = new System.Windows.Forms.MonthCalendar();
-            this.ημερολόγιοΕκδηλώσεωνToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.pictureBox8 = new System.Windows.Forms.PictureBox();
+            this.pictureBox7 = new System.Windows.Forms.PictureBox();
+            this.pictureBox6 = new System.Windows.Forms.PictureBox();
+            this.pictureBox5 = new System.Windows.Forms.PictureBox();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.ημερολογιοToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // button1
@@ -109,7 +111,9 @@
             this.menuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.mainToolStripMenuItem,
-            this.ημερολόγιοΕκδηλώσεωνToolStripMenuItem});
+            this.ημερολόγιοΕκδηλώσεωνToolStripMenuItem,
+            this.χρόνιαΠανεπιστήμιοΠειραιώςToolStripMenuItem,
+            this.ημερολογιοToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Size = new System.Drawing.Size(1338, 32);
@@ -121,6 +125,20 @@
             this.mainToolStripMenuItem.Name = "mainToolStripMenuItem";
             this.mainToolStripMenuItem.Size = new System.Drawing.Size(67, 28);
             this.mainToolStripMenuItem.Text = "Main";
+            // 
+            // ημερολόγιοΕκδηλώσεωνToolStripMenuItem
+            // 
+            this.ημερολόγιοΕκδηλώσεωνToolStripMenuItem.Name = "ημερολόγιοΕκδηλώσεωνToolStripMenuItem";
+            this.ημερολόγιοΕκδηλώσεωνToolStripMenuItem.Size = new System.Drawing.Size(232, 28);
+            this.ημερολόγιοΕκδηλώσεωνToolStripMenuItem.Text = "Ημερολόγιο Εκδηλώσεων";
+            this.ημερολόγιοΕκδηλώσεωνToolStripMenuItem.Click += new System.EventHandler(this.ημερολόγιοΕκδηλώσεωνToolStripMenuItem_Click);
+            // 
+            // χρόνιαΠανεπιστήμιοΠειραιώςToolStripMenuItem
+            // 
+            this.χρόνιαΠανεπιστήμιοΠειραιώςToolStripMenuItem.Name = "χρόνιαΠανεπιστήμιοΠειραιώςToolStripMenuItem";
+            this.χρόνιαΠανεπιστήμιοΠειραιώςToolStripMenuItem.Size = new System.Drawing.Size(303, 28);
+            this.χρόνιαΠανεπιστήμιοΠειραιώςToolStripMenuItem.Text = "80 Χρόνια Πανεπιστήμιο Πειραιώς";
+            this.χρόνιαΠανεπιστήμιοΠειραιώςToolStripMenuItem.Click += new System.EventHandler(this.χρόνιαΠανεπιστήμιοΠειραιώςToolStripMenuItem_Click);
             // 
             // linkLabel1
             // 
@@ -215,89 +233,9 @@
             this.timer1.Interval = 3000;
             this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::TaxeiaAnaptuksi_Gerovasilis_Kypraios.Properties.Resources.Κεντρικό_Κτήριο;
-            this.pictureBox1.Location = new System.Drawing.Point(237, 54);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(747, 313);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 11;
-            this.pictureBox1.TabStop = false;
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Image = global::TaxeiaAnaptuksi_Gerovasilis_Kypraios.Properties.Resources.Αμφιθεατρα_Παπει;
-            this.pictureBox2.Location = new System.Drawing.Point(237, 54);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(747, 313);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox2.TabIndex = 14;
-            this.pictureBox2.TabStop = false;
-            // 
-            // pictureBox3
-            // 
-            this.pictureBox3.Image = global::TaxeiaAnaptuksi_Gerovasilis_Kypraios.Properties.Resources.Βιβλιοθηκη_Παπει;
-            this.pictureBox3.Location = new System.Drawing.Point(237, 54);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(747, 313);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox3.TabIndex = 15;
-            this.pictureBox3.TabStop = false;
-            // 
-            // pictureBox4
-            // 
-            this.pictureBox4.Image = global::TaxeiaAnaptuksi_Gerovasilis_Kypraios.Properties.Resources.Λογοτυπο_Παπει;
-            this.pictureBox4.Location = new System.Drawing.Point(237, 54);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(747, 313);
-            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox4.TabIndex = 16;
-            this.pictureBox4.TabStop = false;
-            // 
-            // pictureBox5
-            // 
-            this.pictureBox5.Image = global::TaxeiaAnaptuksi_Gerovasilis_Kypraios.Properties.Resources.Παπει_Εισοδος;
-            this.pictureBox5.Location = new System.Drawing.Point(237, 54);
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(747, 313);
-            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox5.TabIndex = 17;
-            this.pictureBox5.TabStop = false;
-            // 
-            // pictureBox6
-            // 
-            this.pictureBox6.Image = global::TaxeiaAnaptuksi_Gerovasilis_Kypraios.Properties.Resources.Παπει_Εισοδος;
-            this.pictureBox6.Location = new System.Drawing.Point(237, 54);
-            this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(747, 313);
-            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox6.TabIndex = 18;
-            this.pictureBox6.TabStop = false;
-            // 
-            // pictureBox7
-            // 
-            this.pictureBox7.Image = global::TaxeiaAnaptuksi_Gerovasilis_Kypraios.Properties.Resources.Παπει_Εισοδος_2;
-            this.pictureBox7.Location = new System.Drawing.Point(237, 54);
-            this.pictureBox7.Name = "pictureBox7";
-            this.pictureBox7.Size = new System.Drawing.Size(747, 313);
-            this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox7.TabIndex = 19;
-            this.pictureBox7.TabStop = false;
-            // 
-            // pictureBox8
-            // 
-            this.pictureBox8.Image = global::TaxeiaAnaptuksi_Gerovasilis_Kypraios.Properties.Resources.Παπει;
-            this.pictureBox8.Location = new System.Drawing.Point(237, 54);
-            this.pictureBox8.Name = "pictureBox8";
-            this.pictureBox8.Size = new System.Drawing.Size(747, 313);
-            this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox8.TabIndex = 20;
-            this.pictureBox8.TabStop = false;
-            // 
             // dateTimePicker1
             // 
-            this.dateTimePicker1.Location = new System.Drawing.Point(1053, 77);
+            this.dateTimePicker1.Location = new System.Drawing.Point(1075, 345);
             this.dateTimePicker1.Name = "dateTimePicker1";
             this.dateTimePicker1.Size = new System.Drawing.Size(200, 22);
             this.dateTimePicker1.TabIndex = 21;
@@ -310,12 +248,92 @@
             this.monthCalendar1.TabIndex = 22;
             this.monthCalendar1.DateChanged += new System.Windows.Forms.DateRangeEventHandler(this.monthCalendar1_DateChanged);
             // 
-            // ημερολόγιοΕκδηλώσεωνToolStripMenuItem
+            // pictureBox8
             // 
-            this.ημερολόγιοΕκδηλώσεωνToolStripMenuItem.Name = "ημερολόγιοΕκδηλώσεωνToolStripMenuItem";
-            this.ημερολόγιοΕκδηλώσεωνToolStripMenuItem.Size = new System.Drawing.Size(232, 28);
-            this.ημερολόγιοΕκδηλώσεωνToolStripMenuItem.Text = "Ημερολόγιο Εκδηλώσεων";
-            this.ημερολόγιοΕκδηλώσεωνToolStripMenuItem.Click += new System.EventHandler(this.ημερολόγιοΕκδηλώσεωνToolStripMenuItem_Click);
+            this.pictureBox8.Image = global::TaxeiaAnaptuksi_Gerovasilis_Kypraios.Properties.Resources.Παπει;
+            this.pictureBox8.Location = new System.Drawing.Point(237, 54);
+            this.pictureBox8.Name = "pictureBox8";
+            this.pictureBox8.Size = new System.Drawing.Size(747, 313);
+            this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox8.TabIndex = 20;
+            this.pictureBox8.TabStop = false;
+            // 
+            // pictureBox7
+            // 
+            this.pictureBox7.Image = global::TaxeiaAnaptuksi_Gerovasilis_Kypraios.Properties.Resources.Παπει_Εισοδος_2;
+            this.pictureBox7.Location = new System.Drawing.Point(237, 54);
+            this.pictureBox7.Name = "pictureBox7";
+            this.pictureBox7.Size = new System.Drawing.Size(747, 313);
+            this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox7.TabIndex = 19;
+            this.pictureBox7.TabStop = false;
+            // 
+            // pictureBox6
+            // 
+            this.pictureBox6.Image = global::TaxeiaAnaptuksi_Gerovasilis_Kypraios.Properties.Resources.Παπει_Εισοδος;
+            this.pictureBox6.Location = new System.Drawing.Point(237, 54);
+            this.pictureBox6.Name = "pictureBox6";
+            this.pictureBox6.Size = new System.Drawing.Size(747, 313);
+            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox6.TabIndex = 18;
+            this.pictureBox6.TabStop = false;
+            // 
+            // pictureBox5
+            // 
+            this.pictureBox5.Image = global::TaxeiaAnaptuksi_Gerovasilis_Kypraios.Properties.Resources.Παπει_Εισοδος;
+            this.pictureBox5.Location = new System.Drawing.Point(237, 54);
+            this.pictureBox5.Name = "pictureBox5";
+            this.pictureBox5.Size = new System.Drawing.Size(747, 313);
+            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox5.TabIndex = 17;
+            this.pictureBox5.TabStop = false;
+            // 
+            // pictureBox4
+            // 
+            this.pictureBox4.Image = global::TaxeiaAnaptuksi_Gerovasilis_Kypraios.Properties.Resources.Λογοτυπο_Παπει;
+            this.pictureBox4.Location = new System.Drawing.Point(237, 54);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(747, 313);
+            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox4.TabIndex = 16;
+            this.pictureBox4.TabStop = false;
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.Image = global::TaxeiaAnaptuksi_Gerovasilis_Kypraios.Properties.Resources.Βιβλιοθηκη_Παπει;
+            this.pictureBox3.Location = new System.Drawing.Point(237, 54);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(747, 313);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox3.TabIndex = 15;
+            this.pictureBox3.TabStop = false;
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = global::TaxeiaAnaptuksi_Gerovasilis_Kypraios.Properties.Resources.Αμφιθεατρα_Παπει;
+            this.pictureBox2.Location = new System.Drawing.Point(237, 54);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(747, 313);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox2.TabIndex = 14;
+            this.pictureBox2.TabStop = false;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::TaxeiaAnaptuksi_Gerovasilis_Kypraios.Properties.Resources.Κεντρικό_Κτήριο;
+            this.pictureBox1.Location = new System.Drawing.Point(237, 54);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(747, 313);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 11;
+            this.pictureBox1.TabStop = false;
+            // 
+            // ημερολογιοToolStripMenuItem
+            // 
+            this.ημερολογιοToolStripMenuItem.Name = "ημερολογιοToolStripMenuItem";
+            this.ημερολογιοToolStripMenuItem.Size = new System.Drawing.Size(121, 28);
+            this.ημερολογιοToolStripMenuItem.Text = "ημερολογιο";
+            this.ημερολογιοToolStripMenuItem.Click += new System.EventHandler(this.ημερολογιοToolStripMenuItem_Click);
             // 
             // MainForm
             // 
@@ -351,14 +369,14 @@
             this.Load += new System.EventHandler(this.Form1_Load);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -390,6 +408,8 @@
         private System.Windows.Forms.DateTimePicker dateTimePicker1;
         private System.Windows.Forms.MonthCalendar monthCalendar1;
         private System.Windows.Forms.ToolStripMenuItem ημερολόγιοΕκδηλώσεωνToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem χρόνιαΠανεπιστήμιοΠειραιώςToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem ημερολογιοToolStripMenuItem;
     }
 }
 

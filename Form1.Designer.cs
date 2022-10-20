@@ -506,7 +506,7 @@
             this.Controls.Add(this.flowLayoutPanel1);
             this.Controls.Add(this.button2);
             this.Name = "Calendar";
-            this.Text = "Calendar";
+            this.Text = " ";
             this.flowLayoutPanel1.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();

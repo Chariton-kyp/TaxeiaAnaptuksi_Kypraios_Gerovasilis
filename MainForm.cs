@@ -155,5 +155,21 @@ namespace TaxeiaAnaptuksi_Gerovasilis_Kypraios
             calendar.ShowDialog();
             this.Close();
         }
+
+        private void χρόνιαΠανεπιστήμιοΠειραιώςToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Video80 Video80 = new Video80();
+            Video80.ShowDialog();
+            this.Close();
+        }
+
+        private void ημερολογιοToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Form3 f3 = new Form3();
+            f3.ShowDialog();
+            this.Close();
+        }
     }
 }
