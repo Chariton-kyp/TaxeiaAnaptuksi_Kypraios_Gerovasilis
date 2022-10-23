@@ -3,6 +3,6 @@
 *.log
 /debug.log
 logs
-*/FileContentIndex
+/FileContentIndex
 Version.cs
 *.suo
