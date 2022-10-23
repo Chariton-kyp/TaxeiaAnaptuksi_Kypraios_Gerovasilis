@@ -83,6 +83,8 @@ namespace TaxeiaAnaptuksi_Gerovasilis_Kypraios
                 MessageBox.Show("An error occurs. Please try again later!");
             }
 
+
+
             connection2.Close();
 
 
