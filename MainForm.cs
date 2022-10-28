@@ -35,6 +35,9 @@ namespace TaxeiaAnaptuksi_Gerovasilis_Kypraios
 
         private void Form1_Load(object sender, EventArgs e)
         {
+            //SoundPlayer player = new SoundPlayer(@"Assets\Videos\Sound.wav");
+            //player.Play();
+
             connection = new SQLiteConnection(connectionString);
             pictureBox8.Visible = false;
             pictureBox7.Visible = false;
@@ -62,6 +65,7 @@ namespace TaxeiaAnaptuksi_Gerovasilis_Kypraios
             Login login = new Login();
             login.ShowDialog();
             this.Close();
+            
 
         }
 
@@ -139,7 +143,7 @@ namespace TaxeiaAnaptuksi_Gerovasilis_Kypraios
 
         private void button2_Click(object sender, EventArgs e)
         {
-            SoundPlayer player = new SoundPlayer();
+           
         }
 
         private void button3_Click(object sender, EventArgs e)

@@ -42,5 +42,30 @@ namespace TaxeiaAnaptuksi_Gerovasilis_Kypraios
         {
             MessageBox.Show("Αρχή Ακαδημαϊκής Χρονιάς");
         }
+
+        private void label39_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Παρουσίαση Μαθημάτων Μεταπτυχιακού Πληροφορικής");
+        }
+
+        private void label40_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Επέτειος του Πολυτεχνείου");
+        }
+
+        private void label41_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Τουρνουά Ποδοσφαίρου");
+        }
+
+        private void label42_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Πανελλήνιο Συνέδριο Πληροφορικής");
+        }
+
+        private void label43_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Τουρνουά Σκάκι");
+        }
     }
 }
