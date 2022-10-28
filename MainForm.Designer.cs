@@ -36,13 +36,21 @@
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.mainToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.reviewsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.exitToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.σχολέςToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.τμήμαΠληροφορικήςToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.τμήμαΟΔΕToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.τμήμαΟικονομικώνToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.linkLabel1 = new System.Windows.Forms.LinkLabel();
             this.linkLabel2 = new System.Windows.Forms.LinkLabel();
             this.label3 = new System.Windows.Forms.Label();
             this.linkLabel3 = new System.Windows.Forms.LinkLabel();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
-            this.timer1 = new System.Windows.Forms.Timer(this.components);
+            this.καθηγητέςToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.καθηγητέςToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.καθηγητέςToolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
+ this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.button2 = new System.Windows.Forms.Button();
             this.monthCalendar1 = new System.Windows.Forms.MonthCalendar();
             this.button3 = new System.Windows.Forms.Button();
@@ -68,8 +76,6 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(37, 496);
-            this.button1.Margin = new System.Windows.Forms.Padding(4);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(100, 28);
             this.button1.TabIndex = 0;
@@ -111,13 +117,16 @@
             this.menuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.mainToolStripMenuItem,
-            this.reviewsToolStripMenuItem});
+            this.reviewsToolStripMenuItem,
+            this.exitToolStripMenuItem,
+            this.σχολέςToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Padding = new System.Windows.Forms.Padding(5, 2, 0, 2);
             this.menuStrip1.Size = new System.Drawing.Size(1496, 32);
             this.menuStrip1.TabIndex = 4;
             this.menuStrip1.Text = "menuStrip1";
+            this.menuStrip1.ItemClicked += new System.Windows.Forms.ToolStripItemClickedEventHandler(this.menuStrip1_ItemClicked);
             // 
             // mainToolStripMenuItem
             // 
@@ -131,6 +140,51 @@
             this.reviewsToolStripMenuItem.Size = new System.Drawing.Size(91, 28);
             this.reviewsToolStripMenuItem.Text = "Reviews";
             this.reviewsToolStripMenuItem.Click += new System.EventHandler(this.reviewsToolStripMenuItem_Click);
+            // 
+            // exitToolStripMenuItem
+            // 
+            this.exitToolStripMenuItem.Alignment = System.Windows.Forms.ToolStripItemAlignment.Right;
+            this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
+            this.exitToolStripMenuItem.Size = new System.Drawing.Size(45, 23);
+            this.exitToolStripMenuItem.Text = "Exit";
+            this.exitToolStripMenuItem.Click += new System.EventHandler(this.exitToolStripMenuItem_Click);
+            // 
+            // σχολέςToolStripMenuItem
+            // 
+            this.σχολέςToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.τμήμαΠληροφορικήςToolStripMenuItem,
+            this.τμήμαΟΔΕToolStripMenuItem,
+            this.τμήμαΟικονομικώνToolStripMenuItem});
+            this.σχολέςToolStripMenuItem.Name = "σχολέςToolStripMenuItem";
+            this.σχολέςToolStripMenuItem.Size = new System.Drawing.Size(80, 23);
+            this.σχολέςToolStripMenuItem.Text = "Τμήματα";
+            // 
+            // τμήμαΠληροφορικήςToolStripMenuItem
+            // 
+            this.τμήμαΠληροφορικήςToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.καθηγητέςToolStripMenuItem});
+            this.τμήμαΠληροφορικήςToolStripMenuItem.Name = "τμήμαΠληροφορικήςToolStripMenuItem";
+            this.τμήμαΠληροφορικήςToolStripMenuItem.Size = new System.Drawing.Size(221, 24);
+            this.τμήμαΠληροφορικήςToolStripMenuItem.Text = "Τμήμα Πληροφορικής";
+            this.τμήμαΠληροφορικήςToolStripMenuItem.Click += new System.EventHandler(this.τμήμαΠληροφορικήςToolStripMenuItem_Click);
+            // 
+            // τμήμαΟΔΕToolStripMenuItem
+            // 
+            this.τμήμαΟΔΕToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.καθηγητέςToolStripMenuItem1});
+            this.τμήμαΟΔΕToolStripMenuItem.Name = "τμήμαΟΔΕToolStripMenuItem";
+            this.τμήμαΟΔΕToolStripMenuItem.Size = new System.Drawing.Size(221, 24);
+            this.τμήμαΟΔΕToolStripMenuItem.Text = "Τμήμα ΟΔΕ";
+            this.τμήμαΟΔΕToolStripMenuItem.Click += new System.EventHandler(this.τμήμαΟΔΕToolStripMenuItem_Click);
+            // 
+            // τμήμαΟικονομικώνToolStripMenuItem
+            // 
+            this.τμήμαΟικονομικώνToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.καθηγητέςToolStripMenuItem2});
+            this.τμήμαΟικονομικώνToolStripMenuItem.Name = "τμήμαΟικονομικώνToolStripMenuItem";
+            this.τμήμαΟικονομικώνToolStripMenuItem.Size = new System.Drawing.Size(221, 24);
+            this.τμήμαΟικονομικώνToolStripMenuItem.Text = "Τμήμα Οικονομικών";
+            this.τμήμαΟικονομικώνToolStripMenuItem.Click += new System.EventHandler(this.τμήμαΟικονομικώνToolStripMenuItem_Click);
             // 
             // linkLabel1
             // 
@@ -214,11 +268,36 @@
             this.label5.AutoSize = true;
             this.label5.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.label5.Location = new System.Drawing.Point(1044, 11);
+            this.label5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(79, 16);
             this.label5.TabIndex = 10;
             this.label5.Text = "current user:";
             this.label5.Click += new System.EventHandler(this.label5_Click);
+            // 
+            // καθηγητέςToolStripMenuItem
+            // 
+            this.καθηγητέςToolStripMenuItem.Name = "καθηγητέςToolStripMenuItem";
+            this.καθηγητέςToolStripMenuItem.Size = new System.Drawing.Size(180, 24);
+            this.καθηγητέςToolStripMenuItem.Text = "Καθηγητές";
+            this.καθηγητέςToolStripMenuItem.Click += new System.EventHandler(this.καθηγητέςToolStripMenuItem_Click);
+            // 
+            // καθηγητέςToolStripMenuItem1
+            // 
+            this.καθηγητέςToolStripMenuItem1.Name = "καθηγητέςToolStripMenuItem1";
+            this.καθηγητέςToolStripMenuItem1.Size = new System.Drawing.Size(180, 24);
+            this.καθηγητέςToolStripMenuItem1.Text = "Καθηγητές";
+            this.καθηγητέςToolStripMenuItem1.Click += new System.EventHandler(this.καθηγητέςToolStripMenuItem1_Click);
+            // 
+            // καθηγητέςToolStripMenuItem2
+            // 
+            this.καθηγητέςToolStripMenuItem2.Name = "καθηγητέςToolStripMenuItem2";
+            this.καθηγητέςToolStripMenuItem2.Size = new System.Drawing.Size(180, 24);
+            this.καθηγητέςToolStripMenuItem2.Text = "Καθηγητές";
+            this.καθηγητέςToolStripMenuItem2.Click += new System.EventHandler(this.καθηγητέςToolStripMenuItem2_Click);
+            // 
+            // MainForm
+            // 
             // 
             // timer1
             // 
@@ -408,6 +487,14 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.ToolStripMenuItem reviewsToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem exitToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem σχολέςToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem τμήμαΠληροφορικήςToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem τμήμαΟΔΕToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem τμήμαΟικονομικώνToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem καθηγητέςToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem καθηγητέςToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem καθηγητέςToolStripMenuItem2;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.PictureBox pictureBox3;

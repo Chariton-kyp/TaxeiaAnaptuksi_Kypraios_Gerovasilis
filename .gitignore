@@ -1,0 +1,8 @@
+**/logs
+**/logs/debug.log
+*.log
+/debug.log
+logs
+/FileContentIndex
+Version.cs
+*.suo
