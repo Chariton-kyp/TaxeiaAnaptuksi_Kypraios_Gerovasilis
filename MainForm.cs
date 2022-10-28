@@ -32,10 +32,25 @@ namespace TaxeiaAnaptuksi_Gerovasilis_Kypraios
             }
         }
 
+        private void GoFullscreen(bool fullscreen)
+        {
+            if (fullscreen)
+            {
+                this.WindowState = FormWindowState.Normal;
+                this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+                this.Bounds = Screen.PrimaryScreen.Bounds;
+            }
+            else
+            {
+                this.WindowState = FormWindowState.Maximized;
+                this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Sizable;
+            }
+        }
+
         private void Form1_Load(object sender, EventArgs e)
         {
             connection = new SQLiteConnection(connectionString);
-
+            //GoFullscreen(true);
 
         }
 
@@ -76,6 +91,64 @@ namespace TaxeiaAnaptuksi_Gerovasilis_Kypraios
             this.Hide();
             ReviewsForm reviewsForm = new ReviewsForm(this.user);
             reviewsForm.ShowDialog();
+            this.Close();
+        }
+
+        private void exitToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void menuStrip1_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
+        {
+
+        }
+
+        private void τμήμαΠληροφορικήςToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            DepartmentOfInformartics departmentOfInformartics = new DepartmentOfInformartics();
+            departmentOfInformartics.ShowDialog();
+            this.Close();
+        }
+
+        private void τμήμαΟΔΕToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            DepartmentOfOde departmentOfOde = new DepartmentOfOde();
+            departmentOfOde.ShowDialog();
+            this.Close();
+        }
+
+        private void τμήμαΟικονομικώνToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            DepartmentOfFinancials departmentOfFinancials = new DepartmentOfFinancials();
+            departmentOfFinancials.ShowDialog();
+            this.Close();
+        }
+
+        private void καθηγητέςToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            InformaticsProfessors informaticsProfessors = new InformaticsProfessors();
+            informaticsProfessors.ShowDialog();
+            this.Close();
+        }
+
+        private void καθηγητέςToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            OdeProfessors odeProfessors = new OdeProfessors();
+            odeProfessors.ShowDialog();
+            this.Close();
+        }
+
+        private void καθηγητέςToolStripMenuItem2_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            FinancialProfessors financialProfessors = new FinancialProfessors();
+            financialProfessors.ShowDialog();
             this.Close();
         }
     }

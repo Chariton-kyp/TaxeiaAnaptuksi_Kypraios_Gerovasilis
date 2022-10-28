@@ -34,8 +34,21 @@ namespace TaxeiaAnaptuksi_Gerovasilis_Kypraios
                 label4.Visible = true;
                 isUser = true;
             }
+        }
 
-
+        private void GoFullscreen(bool fullscreen)
+        {
+            if (fullscreen)
+            {
+                this.WindowState = FormWindowState.Normal;
+                this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+                this.Bounds = Screen.PrimaryScreen.Bounds;
+            }
+            else
+            {
+                this.WindowState = FormWindowState.Maximized;
+                this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Sizable;
+            }
         }
 
         private void ReviewsForm_Load(object sender, EventArgs e)
@@ -45,6 +58,7 @@ namespace TaxeiaAnaptuksi_Gerovasilis_Kypraios
             connection2 = new SQLiteConnection(connectionString2);
 
             ReviewsLoad();
+            //GoFullscreen(true);
 
         }
 
