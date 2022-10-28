@@ -40,8 +40,8 @@ namespace TaxeiaAnaptuksi_Gerovasilis_Kypraios
 
         private void Video_Load(object sender, EventArgs e)
         {
-            axWindowsMediaPlayer1.URL = @"Assets\Videos\video.mp4";
-            axWindowsMediaPlayer1.Ctlcontrols.play();
+            //axWindowsMediaPlayer1.URL = @"Assets\Videos\video.mp4";
+            //axWindowsMediaPlayer1.Ctlcontrols.play();
 
 
         }
