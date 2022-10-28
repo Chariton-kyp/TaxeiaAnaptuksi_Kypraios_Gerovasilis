@@ -149,6 +149,7 @@ C:\Users\harit\Desktop\Μαθήματα Μεταπτυχιακό\Ταχεία Α
 C:\Users\harit\Desktop\Μαθήματα Μεταπτυχιακό\Ταχεία Ανάπτυξη Εφαρμογών - C#\Teliki_Ergasia\TaxeiaAnaptuksi_Kypraios_Gerovasilis\obj\Debug\TaxeiaAnaptuksi_Gerovasilis_Kypraios.FinancialProfessors.resources
 C:\Users\harit\Desktop\Μαθήματα Μεταπτυχιακό\Ταχεία Ανάπτυξη Εφαρμογών - C#\Teliki_Ergasia\TaxeiaAnaptuksi_Kypraios_Gerovasilis\obj\Debug\TaxeiaAnaptuksi_Gerovasilis_Kypraios.InformaticsProfessors.resources
 C:\Users\harit\Desktop\Μαθήματα Μεταπτυχιακό\Ταχεία Ανάπτυξη Εφαρμογών - C#\Teliki_Ergasia\TaxeiaAnaptuksi_Kypraios_Gerovasilis\obj\Debug\TaxeiaAnaptuksi_Gerovasilis_Kypraios.CalendarEvents.resources
+C:\Users\harit\Desktop\Μαθήματα Μεταπτυχιακό\Ταχεία Ανάπτυξη Εφαρμογών - C#\Teliki_Ergasia\TaxeiaAnaptuksi_Kypraios_Gerovasilis\obj\Debug\TaxeiaAnaptuksi_Gerovasilis_Kypraios.MenuSitisis.resources
 C:\Users\harit\Desktop\Μαθήματα Μεταπτυχιακό\Ταχεία Ανάπτυξη Εφαρμογών - C#\Teliki_Ergasia\TaxeiaAnaptuksi_Kypraios_Gerovasilis\obj\Debug\TaxeiaAnaptuksi_Gerovasilis_Kypraios.Video.resources
 C:\Users\harit\Desktop\Μαθήματα Μεταπτυχιακό\Ταχεία Ανάπτυξη Εφαρμογών - C#\Teliki_Ergasia\TaxeiaAnaptuksi_Kypraios_Gerovasilis\obj\Debug\TaxeiaAnaptuksi_Gerovasilis_Kypraios.Login.resources
 C:\Users\harit\Desktop\Μαθήματα Μεταπτυχιακό\Ταχεία Ανάπτυξη Εφαρμογών - C#\Teliki_Ergasia\TaxeiaAnaptuksi_Kypraios_Gerovasilis\obj\Debug\TaxeiaAnaptuksi_Gerovasilis_Kypraios.MainForm.resources
