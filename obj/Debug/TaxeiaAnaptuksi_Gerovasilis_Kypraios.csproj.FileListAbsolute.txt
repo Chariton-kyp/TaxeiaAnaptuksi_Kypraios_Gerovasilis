@@ -99,8 +99,15 @@ C:\Users\gerob\OneDrive\Desktop\ErgasiaTaxeiaAnaptuksi\TaxeiaAnaptixiEfarmogwn\b
 C:\Users\gerob\OneDrive\Desktop\ErgasiaTaxeiaAnaptuksi\TaxeiaAnaptixiEfarmogwn\bin\Debug\EntityFramework.xml
 C:\Users\gerob\OneDrive\Desktop\ErgasiaTaxeiaAnaptuksi\TaxeiaAnaptixiEfarmogwn\bin\Debug\EntityFramework.SqlServer.xml
 C:\Users\gerob\OneDrive\Desktop\ErgasiaTaxeiaAnaptuksi\TaxeiaAnaptixiEfarmogwn\bin\Debug\System.Data.SQLite.xml
+C:\Users\gerob\OneDrive\Desktop\ErgasiaTaxeiaAnaptuksi\TaxeiaAnaptixiEfarmogwn\bin\Debug\Interop.WMPLib.dll
+C:\Users\gerob\OneDrive\Desktop\ErgasiaTaxeiaAnaptuksi\TaxeiaAnaptixiEfarmogwn\bin\Debug\AxInterop.WMPLib.dll
 C:\Users\gerob\OneDrive\Desktop\ErgasiaTaxeiaAnaptuksi\TaxeiaAnaptixiEfarmogwn\obj\Debug\TaxeiaAnaptuksi_Gerovasilis_Kypraios.csproj.AssemblyReference.cache
 C:\Users\gerob\OneDrive\Desktop\ErgasiaTaxeiaAnaptuksi\TaxeiaAnaptixiEfarmogwn\obj\Debug\TaxeiaAnaptuksi_Gerovasilis_Kypraios.csproj.SuggestedBindingRedirects.cache
+C:\Users\gerob\OneDrive\Desktop\ErgasiaTaxeiaAnaptuksi\TaxeiaAnaptixiEfarmogwn\obj\Debug\Interop.WMPLib.dll
+C:\Users\gerob\OneDrive\Desktop\ErgasiaTaxeiaAnaptuksi\TaxeiaAnaptixiEfarmogwn\obj\Debug\AxInterop.WMPLib.dll
+C:\Users\gerob\OneDrive\Desktop\ErgasiaTaxeiaAnaptuksi\TaxeiaAnaptixiEfarmogwn\obj\Debug\TaxeiaAnaptuksi_Gerovasilis_Kypraios.csproj.ResolveComReference.cache
+C:\Users\gerob\OneDrive\Desktop\ErgasiaTaxeiaAnaptuksi\TaxeiaAnaptixiEfarmogwn\obj\Debug\TaxeiaAnaptuksi_Gerovasilis_Kypraios.CalendarEvents.resources
+C:\Users\gerob\OneDrive\Desktop\ErgasiaTaxeiaAnaptuksi\TaxeiaAnaptixiEfarmogwn\obj\Debug\TaxeiaAnaptuksi_Gerovasilis_Kypraios.Video.resources
 C:\Users\gerob\OneDrive\Desktop\ErgasiaTaxeiaAnaptuksi\TaxeiaAnaptixiEfarmogwn\obj\Debug\TaxeiaAnaptuksi_Gerovasilis_Kypraios.Login.resources
 C:\Users\gerob\OneDrive\Desktop\ErgasiaTaxeiaAnaptuksi\TaxeiaAnaptixiEfarmogwn\obj\Debug\TaxeiaAnaptuksi_Gerovasilis_Kypraios.MainForm.resources
 C:\Users\gerob\OneDrive\Desktop\ErgasiaTaxeiaAnaptuksi\TaxeiaAnaptixiEfarmogwn\obj\Debug\TaxeiaAnaptuksi_Gerovasilis_Kypraios.Properties.Resources.resources
@@ -111,10 +118,3 @@ C:\Users\gerob\OneDrive\Desktop\ErgasiaTaxeiaAnaptuksi\TaxeiaAnaptixiEfarmogwn\o
 C:\Users\gerob\OneDrive\Desktop\ErgasiaTaxeiaAnaptuksi\TaxeiaAnaptixiEfarmogwn\obj\Debug\TaxeiaAnaptuksi_Gerovasilis_Kypraios.csproj.CopyComplete
 C:\Users\gerob\OneDrive\Desktop\ErgasiaTaxeiaAnaptuksi\TaxeiaAnaptixiEfarmogwn\obj\Debug\TaxeiaAnaptuksi_Gerovasilis_Kypraios.exe
 C:\Users\gerob\OneDrive\Desktop\ErgasiaTaxeiaAnaptuksi\TaxeiaAnaptixiEfarmogwn\obj\Debug\TaxeiaAnaptuksi_Gerovasilis_Kypraios.pdb
-C:\Users\gerob\OneDrive\Desktop\ErgasiaTaxeiaAnaptuksi\TaxeiaAnaptixiEfarmogwn\obj\Debug\Interop.WMPLib.dll
-C:\Users\gerob\OneDrive\Desktop\ErgasiaTaxeiaAnaptuksi\TaxeiaAnaptixiEfarmogwn\obj\Debug\AxInterop.WMPLib.dll
-C:\Users\gerob\OneDrive\Desktop\ErgasiaTaxeiaAnaptuksi\TaxeiaAnaptixiEfarmogwn\obj\Debug\TaxeiaAnaptuksi_Gerovasilis_Kypraios.csproj.ResolveComReference.cache
-C:\Users\gerob\OneDrive\Desktop\ErgasiaTaxeiaAnaptuksi\TaxeiaAnaptixiEfarmogwn\bin\Debug\Interop.WMPLib.dll
-C:\Users\gerob\OneDrive\Desktop\ErgasiaTaxeiaAnaptuksi\TaxeiaAnaptixiEfarmogwn\bin\Debug\AxInterop.WMPLib.dll
-C:\Users\gerob\OneDrive\Desktop\ErgasiaTaxeiaAnaptuksi\TaxeiaAnaptixiEfarmogwn\obj\Debug\TaxeiaAnaptuksi_Gerovasilis_Kypraios.CalendarEvents.resources
-C:\Users\gerob\OneDrive\Desktop\ErgasiaTaxeiaAnaptuksi\TaxeiaAnaptixiEfarmogwn\obj\Debug\TaxeiaAnaptuksi_Gerovasilis_Kypraios.Video.resources
