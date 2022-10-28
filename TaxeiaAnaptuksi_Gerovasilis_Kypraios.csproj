@@ -71,6 +71,12 @@
     <Compile Include="CalendarEvents.Designer.cs">
       <DependentUpon>CalendarEvents.cs</DependentUpon>
     </Compile>
+    <Compile Include="MenuSitisis.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MenuSitisis.Designer.cs">
+      <DependentUpon>MenuSitisis.cs</DependentUpon>
+    </Compile>
     <Compile Include="Video.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -105,6 +111,9 @@
     </Compile>
     <EmbeddedResource Include="CalendarEvents.resx">
       <DependentUpon>CalendarEvents.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MenuSitisis.resx">
+      <DependentUpon>MenuSitisis.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Video.resx">
       <DependentUpon>Video.cs</DependentUpon>
