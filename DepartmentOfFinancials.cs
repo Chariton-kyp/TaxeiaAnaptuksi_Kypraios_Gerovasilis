@@ -5,9 +5,25 @@ namespace TaxeiaAnaptuksi_Gerovasilis_Kypraios
 {
     public partial class DepartmentOfFinancials : Form
     {
+
+        private void GoFullscreen(bool fullscreen)
+        {
+            if (fullscreen)
+            {
+                this.WindowState = FormWindowState.Normal;
+                this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+                this.Bounds = Screen.PrimaryScreen.Bounds;
+            }
+            else
+            {
+                this.WindowState = FormWindowState.Maximized;
+                this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Sizable;
+            }
+        }
         public DepartmentOfFinancials()
         {
             InitializeComponent();
+            GoFullscreen(true);
         }
 
         private void DepartmentOfFinancials_Load(object sender, EventArgs e)

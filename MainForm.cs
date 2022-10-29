@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Data.SQLite;
-using System.Media;
 using System.Windows.Forms;
 
 namespace TaxeiaAnaptuksi_Gerovasilis_Kypraios
@@ -14,6 +13,7 @@ namespace TaxeiaAnaptuksi_Gerovasilis_Kypraios
         public MainForm(String user)
         {
             InitializeComponent();
+            GoFullscreen(true);
             this.user = user;
 
             if (this.user == "amonymous" || this.user == "")
@@ -54,7 +54,7 @@ namespace TaxeiaAnaptuksi_Gerovasilis_Kypraios
             //player.Play();
 
             connection = new SQLiteConnection(connectionString);
-//GoFullscreen(true);
+            GoFullscreen(true);
             pictureBox8.Visible = false;
             pictureBox7.Visible = false;
             pictureBox6.Visible = false;
@@ -81,7 +81,7 @@ namespace TaxeiaAnaptuksi_Gerovasilis_Kypraios
             Login login = new Login();
             login.ShowDialog();
             this.Close();
-            
+
 
         }
 
@@ -159,7 +159,7 @@ namespace TaxeiaAnaptuksi_Gerovasilis_Kypraios
 
         private void button2_Click(object sender, EventArgs e)
         {
-           
+
         }
 
         private void button3_Click(object sender, EventArgs e)
@@ -182,7 +182,7 @@ namespace TaxeiaAnaptuksi_Gerovasilis_Kypraios
         {
 
         }
-private void exitToolStripMenuItem_Click(object sender, EventArgs e)
+        private void exitToolStripMenuItem_Click(object sender, EventArgs e)
         {
             Application.Exit();
         }
@@ -239,7 +239,7 @@ private void exitToolStripMenuItem_Click(object sender, EventArgs e)
             financialProfessors.ShowDialog();
             this.Close();
         }
-private void button1_Click(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e)
         {
             this.Hide();
             MenuSitisis sitisi = new MenuSitisis();

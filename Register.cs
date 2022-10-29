@@ -32,7 +32,7 @@ namespace TaxeiaAnaptuksi_Gerovasilis_Kypraios
         private void Register_Load(object sender, EventArgs e)
         {
             connection = new SQLiteConnection(connectionString);
-            //GoFullscreen(true);
+            GoFullscreen(true);
         }
 
         private void Submit_Click(object sender, EventArgs e)
