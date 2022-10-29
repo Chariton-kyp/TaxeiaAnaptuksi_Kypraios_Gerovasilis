@@ -65,6 +65,24 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+ <Compile Include="CalendarEvents.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CalendarEvents.Designer.cs">
+      <DependentUpon>CalendarEvents.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MenuSitisis.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MenuSitisis.Designer.cs">
+      <DependentUpon>MenuSitisis.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Video.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Video.Designer.cs">
+      <DependentUpon>Video.cs</DependentUpon>
+    </Compile>
     <Compile Include="DepartmentOfFinancials.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -127,6 +145,7 @@
     <Compile Include="ReviewsForm.Designer.cs">
       <DependentUpon>ReviewsForm.cs</DependentUpon>
     </Compile>
+
     <EmbeddedResource Include="DepartmentOfFinancials.resx">
       <DependentUpon>DepartmentOfFinancials.cs</DependentUpon>
     </EmbeddedResource>
@@ -141,6 +160,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="InformaticsProfessors.resx">
       <DependentUpon>InformaticsProfessors.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CalendarEvents.resx">
+      <DependentUpon>CalendarEvents.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MenuSitisis.resx">
+      <DependentUpon>MenuSitisis.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Video.resx">
+      <DependentUpon>Video.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
@@ -159,6 +187,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <EmbeddedResource Include="Register.resx">
       <DependentUpon>Register.cs</DependentUpon>
@@ -205,6 +234,49 @@
       <VersionMinor>3</VersionMinor>
       <Lcid>0</Lcid>
       <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+<ItemGroup>
+    <None Include="bin\Debug\Assets\Αμφιθεατρα Παπει.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Assets\Βιβλιοθηκη Παπει.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Assets\Κεντρικό Κτήριο.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Assets\Λογοτυπο Παπει.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Assets\Παπει Εισοδος 2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Assets\Παπει Εισοδος.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Assets\Παπει.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Assets\Παπει Βιβλιοθηκη.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="AxWMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="WMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
       <Isolated>False</Isolated>
       <EmbedInteropTypes>True</EmbedInteropTypes>
     </COMReference>
