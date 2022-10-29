@@ -246,6 +246,28 @@ namespace TaxeiaAnaptuksi_Gerovasilis_Kypraios
             sitisi.ShowDialog();
             this.Close();
         }
+
+        private void mainToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            MainForm mainform = new MainForm(user);
+            mainform.ShowDialog();
+            this.Close();
+        }
+
+        private void aboutToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Video video = new Video(user);
+            video.ShowDialog();
+            this.Close();
+
+        }
+
+        private void μενούΣίτισηςToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
 

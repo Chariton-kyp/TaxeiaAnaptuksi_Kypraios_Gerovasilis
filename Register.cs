@@ -106,5 +106,10 @@ namespace TaxeiaAnaptuksi_Gerovasilis_Kypraios
         {
 
         }
+
+        private void αρχικήΣελίδαToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
