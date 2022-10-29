@@ -53,7 +53,7 @@
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1401, 83);
+            this.panel1.Size = new System.Drawing.Size(1611, 83);
             this.panel1.TabIndex = 0;
             // 
             // lblTitle
@@ -73,7 +73,7 @@
             this.aboutToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(1401, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(1611, 24);
             this.menuStrip1.TabIndex = 1;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -98,7 +98,7 @@
             this.panel2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel2.Location = new System.Drawing.Point(0, 83);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(1401, 727);
+            this.panel2.Size = new System.Drawing.Size(1611, 809);
             this.panel2.TabIndex = 1;
             // 
             // axWindowsMediaPlayer1
@@ -116,10 +116,10 @@
             this.panel36.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(44)))), ((int)(((byte)(84)))));
             this.panel36.Controls.Add(this.richTextBox8);
             this.panel36.Controls.Add(this.richTextBox9);
-            this.panel36.Location = new System.Drawing.Point(0, 548);
+            this.panel36.Location = new System.Drawing.Point(0, 547);
             this.panel36.Name = "panel36";
-            this.panel36.Size = new System.Drawing.Size(1401, 183);
-            this.panel36.TabIndex = 25;
+            this.panel36.Size = new System.Drawing.Size(1611, 262);
+            this.panel36.TabIndex = 27;
             // 
             // richTextBox8
             // 
@@ -153,7 +153,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(13F, 26F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(1401, 810);
+            this.ClientSize = new System.Drawing.Size(1611, 892);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(161)));

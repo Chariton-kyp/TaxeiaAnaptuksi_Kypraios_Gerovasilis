@@ -93,10 +93,10 @@
             this.panel36.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(44)))), ((int)(((byte)(84)))));
             this.panel36.Controls.Add(this.richTextBox8);
             this.panel36.Controls.Add(this.richTextBox9);
-            this.panel36.Location = new System.Drawing.Point(0, 629);
+            this.panel36.Location = new System.Drawing.Point(0, 632);
             this.panel36.Name = "panel36";
-            this.panel36.Size = new System.Drawing.Size(1401, 183);
-            this.panel36.TabIndex = 26;
+            this.panel36.Size = new System.Drawing.Size(1611, 262);
+            this.panel36.TabIndex = 27;
             // 
             // richTextBox8
             // 
@@ -129,7 +129,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1401, 810);
+            this.ClientSize = new System.Drawing.Size(1611, 892);
             this.Controls.Add(this.panel36);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.pictureBox1);

@@ -246,6 +246,11 @@ namespace TaxeiaAnaptuksi_Gerovasilis_Kypraios
             sitisi.ShowDialog();
             this.Close();
         }
+
+        private void panel36_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }
 
