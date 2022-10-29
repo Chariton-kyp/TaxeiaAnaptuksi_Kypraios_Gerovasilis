@@ -5,6 +5,7 @@ namespace TaxeiaAnaptuksi_Gerovasilis_Kypraios
 {
     public partial class Video : Form
     {
+        string user;
         private void GoFullscreen(bool fullscreen)
         {
             if (fullscreen)
@@ -20,10 +21,13 @@ namespace TaxeiaAnaptuksi_Gerovasilis_Kypraios
             }
         }
 
-        public Video()
+        public Video(String user)
         {
             InitializeComponent();
             GoFullscreen(true);
+            this.user = user;
+            if (this.user == "anonymous" || this.user == "")
+            { }
         }
 
         private void axWindowsMediaPlayer1_Enter(object sender, EventArgs e)
@@ -73,7 +77,7 @@ namespace TaxeiaAnaptuksi_Gerovasilis_Kypraios
         {
             axWindowsMediaPlayer1.Ctlcontrols.stop();
             this.Hide();
-            MainForm mainform = new MainForm("");
+            MainForm mainform = new MainForm(user);
             mainform.ShowDialog();
             this.Close();
             // Αποσυνδέεται ο χρήστης όταν γυρίζει στην αρχική

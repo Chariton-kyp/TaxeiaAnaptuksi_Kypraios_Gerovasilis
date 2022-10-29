@@ -5,7 +5,7 @@ namespace TaxeiaAnaptuksi_Gerovasilis_Kypraios
 {
     public partial class DepartmentOfFinancials : Form
     {
-
+        string user;
         private void GoFullscreen(bool fullscreen)
         {
             if (fullscreen)
@@ -20,10 +20,13 @@ namespace TaxeiaAnaptuksi_Gerovasilis_Kypraios
                 this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Sizable;
             }
         }
-        public DepartmentOfFinancials()
+        public DepartmentOfFinancials(String user)
         {
             InitializeComponent();
             GoFullscreen(true);
+            this.user = user;
+            if (this.user == "anonymous" || this.user == "")
+            { }
         }
 
         private void DepartmentOfFinancials_Load(object sender, EventArgs e)

@@ -6,12 +6,17 @@ namespace TaxeiaAnaptuksi_Gerovasilis_Kypraios
 {
     public partial class Register : Form
     {
+        string user;
         String connectionString = "Data source =Users.db;Version=3;Pooling=true";
         SQLiteConnection connection;
 
-        public Register()
+        public Register(String user)
         {
             InitializeComponent();
+            GoFullscreen(true);
+            this.user = user;
+            if (this.user == "anonymous" || this.user == "")
+            { }
         }
 
         private void GoFullscreen(bool fullscreen)

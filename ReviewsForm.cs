@@ -16,6 +16,7 @@ namespace TaxeiaAnaptuksi_Gerovasilis_Kypraios
         public ReviewsForm(String user)
         {
             InitializeComponent();
+            GoFullscreen(true);
             this.user = user;
             if (this.user == "anonymous" || this.user == "")
             {

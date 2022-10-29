@@ -5,6 +5,7 @@ namespace TaxeiaAnaptuksi_Gerovasilis_Kypraios
 {
     public partial class DepartmentOfOde : Form
     {
+        string user;
         private void GoFullscreen(bool fullscreen)
         {
             if (fullscreen)
@@ -19,10 +20,14 @@ namespace TaxeiaAnaptuksi_Gerovasilis_Kypraios
                 this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Sizable;
             }
         }
-        public DepartmentOfOde()
+
+        public DepartmentOfOde(String user)
         {
             InitializeComponent();
             GoFullscreen(true);
+            this.user = user;
+            if (this.user == "anonymous" || this.user == "")
+            { }
         }
 
         private void richTextBox1_TextChanged(object sender, EventArgs e)

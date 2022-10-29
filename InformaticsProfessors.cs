@@ -5,6 +5,7 @@ namespace TaxeiaAnaptuksi_Gerovasilis_Kypraios
 {
     public partial class InformaticsProfessors : Form
     {
+        string user;
         private void GoFullscreen(bool fullscreen)
         {
             if (fullscreen)
@@ -19,10 +20,13 @@ namespace TaxeiaAnaptuksi_Gerovasilis_Kypraios
                 this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Sizable;
             }
         }
-        public InformaticsProfessors()
+        public InformaticsProfessors(String user)
         {
             InitializeComponent();
             GoFullscreen(true);
+            this.user = user;
+            if (this.user == "anonymous" || this.user == "")
+            { }
         }
 
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)

@@ -6,11 +6,15 @@ namespace TaxeiaAnaptuksi_Gerovasilis_Kypraios
     public partial class CalendarEvents : Form
     {
         //private string anoynmous;
+        string user;
 
         public CalendarEvents(string user)
         {
             InitializeComponent();
             GoFullscreen(true);
+            this.user = user;
+            if (this.user == "anonymous" || this.user == "")
+            { }
         }
 
         private void label5_Click(object sender, EventArgs e)

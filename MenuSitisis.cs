@@ -5,6 +5,7 @@ namespace TaxeiaAnaptuksi_Gerovasilis_Kypraios
 {
     public partial class MenuSitisis : Form
     {
+        string user;
         private void GoFullscreen(bool fullscreen)
         {
             if (fullscreen)
@@ -20,10 +21,13 @@ namespace TaxeiaAnaptuksi_Gerovasilis_Kypraios
             }
         }
 
-        public MenuSitisis()
+        public MenuSitisis(String user)
         {
             InitializeComponent();
             GoFullscreen(true);
+            this.user = user;
+            if (this.user == "anonymous" || this.user == "")
+            { }
         }
 
         private void MenuSitisis_Load(object sender, EventArgs e)
@@ -44,7 +48,7 @@ namespace TaxeiaAnaptuksi_Gerovasilis_Kypraios
         private void αρχικήΣελίδαToolStripMenuItem_Click(object sender, EventArgs e)
         {
             this.Hide();
-            MainForm mainform = new MainForm("");
+            MainForm mainform = new MainForm(user);
             mainform.ShowDialog();
             this.Close();
         }

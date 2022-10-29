@@ -9,11 +9,15 @@ namespace TaxeiaAnaptuksi_Gerovasilis_Kypraios
         String connectionString = "Data source =Users.db;Version=3;Pooling=true";
         SQLiteConnection connection;
         string anonymous = "Visitor";
+        string user;
 
-        public Login()
+        public Login(String user)
         {
             InitializeComponent();
             GoFullscreen(true);
+            this.user = user;
+            if (this.user == "anonymous" || this.user == "")
+            { }
         }
 
 

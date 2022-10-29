@@ -20,6 +20,7 @@ namespace TaxeiaAnaptuksi_Gerovasilis_Kypraios
             {
                 label5.Visible = false;
                 linkLabel3.Visible = false;
+                button1.Visible = false;
                 return;
             }
             else
@@ -29,6 +30,7 @@ namespace TaxeiaAnaptuksi_Gerovasilis_Kypraios
                 linkLabel2.Visible = false;
                 label3.Visible = false;
                 linkLabel3.Visible = true;
+                button1.Visible = true;
 
             }
         }
@@ -70,7 +72,7 @@ namespace TaxeiaAnaptuksi_Gerovasilis_Kypraios
         private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
             this.Hide();
-            Register register = new Register();
+            Register register = new Register(this.user);
             register.ShowDialog();
             this.Close();
         }
@@ -78,7 +80,7 @@ namespace TaxeiaAnaptuksi_Gerovasilis_Kypraios
         private void linkLabel2_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
             this.Hide();
-            Login login = new Login();
+            Login login = new Login(this.user);
             login.ShowDialog();
             this.Close();
 
@@ -173,7 +175,7 @@ namespace TaxeiaAnaptuksi_Gerovasilis_Kypraios
         private void button5_Click(object sender, EventArgs e)
         {
             this.Hide();
-            Video video = new Video();
+            Video video = new Video(this.user);
             video.ShowDialog();
             this.Close();
         }
@@ -195,7 +197,7 @@ namespace TaxeiaAnaptuksi_Gerovasilis_Kypraios
         private void τμήμαΠληροφορικήςToolStripMenuItem_Click(object sender, EventArgs e)
         {
             this.Hide();
-            DepartmentOfInformartics departmentOfInformartics = new DepartmentOfInformartics();
+            DepartmentOfInformartics departmentOfInformartics = new DepartmentOfInformartics(this.user);
             departmentOfInformartics.ShowDialog();
             this.Close();
         }
@@ -203,7 +205,7 @@ namespace TaxeiaAnaptuksi_Gerovasilis_Kypraios
         private void τμήμαΟΔΕToolStripMenuItem_Click(object sender, EventArgs e)
         {
             this.Hide();
-            DepartmentOfOde departmentOfOde = new DepartmentOfOde();
+            DepartmentOfOde departmentOfOde = new DepartmentOfOde(this.user);
             departmentOfOde.ShowDialog();
             this.Close();
         }
@@ -211,7 +213,7 @@ namespace TaxeiaAnaptuksi_Gerovasilis_Kypraios
         private void τμήμαΟικονομικώνToolStripMenuItem_Click(object sender, EventArgs e)
         {
             this.Hide();
-            DepartmentOfFinancials departmentOfFinancials = new DepartmentOfFinancials();
+            DepartmentOfFinancials departmentOfFinancials = new DepartmentOfFinancials(this.user);
             departmentOfFinancials.ShowDialog();
             this.Close();
         }
@@ -219,7 +221,7 @@ namespace TaxeiaAnaptuksi_Gerovasilis_Kypraios
         private void καθηγητέςToolStripMenuItem_Click(object sender, EventArgs e)
         {
             this.Hide();
-            InformaticsProfessors informaticsProfessors = new InformaticsProfessors();
+            InformaticsProfessors informaticsProfessors = new InformaticsProfessors(this.user);
             informaticsProfessors.ShowDialog();
             this.Close();
         }
@@ -227,7 +229,7 @@ namespace TaxeiaAnaptuksi_Gerovasilis_Kypraios
         private void καθηγητέςToolStripMenuItem1_Click(object sender, EventArgs e)
         {
             this.Hide();
-            OdeProfessors odeProfessors = new OdeProfessors();
+            OdeProfessors odeProfessors = new OdeProfessors(this.user);
             odeProfessors.ShowDialog();
             this.Close();
         }
@@ -235,14 +237,14 @@ namespace TaxeiaAnaptuksi_Gerovasilis_Kypraios
         private void καθηγητέςToolStripMenuItem2_Click(object sender, EventArgs e)
         {
             this.Hide();
-            FinancialProfessors financialProfessors = new FinancialProfessors();
+            FinancialProfessors financialProfessors = new FinancialProfessors(this.user);
             financialProfessors.ShowDialog();
             this.Close();
         }
         private void button1_Click(object sender, EventArgs e)
         {
             this.Hide();
-            MenuSitisis sitisi = new MenuSitisis();
+            MenuSitisis sitisi = new MenuSitisis(this.user);
             sitisi.ShowDialog();
             this.Close();
         }
