@@ -50,7 +50,6 @@
             this.panel36 = new System.Windows.Forms.Panel();
             this.richTextBox8 = new System.Windows.Forms.RichTextBox();
             this.richTextBox9 = new System.Windows.Forms.RichTextBox();
-            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.mainToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.reviewsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.exitToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -230,19 +229,6 @@
             this.richTextBox7.Size = new System.Drawing.Size(243, 352);
             this.richTextBox7.TabIndex = 22;
             this.richTextBox7.Text = resources.GetString("richTextBox7.Text");
-            // 
-            // menuStrip1
-            // 
-            this.menuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
-            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.αρχικήΣελίδαToolStripMenuItem,
-            this.aboutToolStripMenuItem});
-            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
-            this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Padding = new System.Windows.Forms.Padding(4, 2, 0, 2);
-            this.menuStrip1.Size = new System.Drawing.Size(1611, 24);
-            this.menuStrip1.TabIndex = 23;
-            this.menuStrip1.Text = "menuStrip1";
             // 
             // αρχικήΣελίδαToolStripMenuItem
             // 
@@ -449,7 +435,6 @@
         private System.Windows.Forms.Panel panel36;
         private System.Windows.Forms.RichTextBox richTextBox8;
         private System.Windows.Forms.RichTextBox richTextBox9;
-        private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.ToolStripMenuItem mainToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem reviewsToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem exitToolStripMenuItem;
