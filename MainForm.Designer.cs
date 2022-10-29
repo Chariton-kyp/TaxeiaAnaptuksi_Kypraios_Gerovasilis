@@ -86,7 +86,7 @@
             // 
             // menuStrip1
             // 
-            this.menuStrip1.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.menuStrip1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(44)))), ((int)(((byte)(84)))));
             this.menuStrip1.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
             this.menuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
@@ -104,12 +104,14 @@
             // 
             // mainToolStripMenuItem
             // 
+            this.mainToolStripMenuItem.ForeColor = System.Drawing.Color.White;
             this.mainToolStripMenuItem.Name = "mainToolStripMenuItem";
             this.mainToolStripMenuItem.Size = new System.Drawing.Size(54, 23);
             this.mainToolStripMenuItem.Text = "Main";
             // 
             // reviewsToolStripMenuItem
             // 
+            this.reviewsToolStripMenuItem.ForeColor = System.Drawing.Color.White;
             this.reviewsToolStripMenuItem.Name = "reviewsToolStripMenuItem";
             this.reviewsToolStripMenuItem.Size = new System.Drawing.Size(75, 23);
             this.reviewsToolStripMenuItem.Text = "Reviews";
@@ -118,6 +120,7 @@
             // exitToolStripMenuItem
             // 
             this.exitToolStripMenuItem.Alignment = System.Windows.Forms.ToolStripItemAlignment.Right;
+            this.exitToolStripMenuItem.ForeColor = System.Drawing.Color.White;
             this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
             this.exitToolStripMenuItem.Size = new System.Drawing.Size(45, 23);
             this.exitToolStripMenuItem.Text = "Exit";
@@ -129,6 +132,7 @@
             this.τμήμαΠληροφορικήςToolStripMenuItem,
             this.τμήμαΟΔΕToolStripMenuItem,
             this.τμήμαΟικονομικώνToolStripMenuItem});
+            this.σχολέςToolStripMenuItem.ForeColor = System.Drawing.Color.White;
             this.σχολέςToolStripMenuItem.Name = "σχολέςToolStripMenuItem";
             this.σχολέςToolStripMenuItem.Size = new System.Drawing.Size(80, 23);
             this.σχολέςToolStripMenuItem.Text = "Τμήματα";
@@ -252,8 +256,9 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label5.Location = new System.Drawing.Point(1044, 11);
+            this.label5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(44)))), ((int)(((byte)(84)))));
+            this.label5.ForeColor = System.Drawing.Color.White;
+            this.label5.Location = new System.Drawing.Point(1041, 9);
             this.label5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(66, 13);
