@@ -166,6 +166,14 @@ namespace TaxeiaAnaptuksi_Gerovasilis_Kypraios
         {
 
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            MenuSitisis sitisi = new MenuSitisis();
+            sitisi.ShowDialog();
+            this.Close();
+        }
     }
 }
 

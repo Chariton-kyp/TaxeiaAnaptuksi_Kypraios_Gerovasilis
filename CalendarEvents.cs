@@ -12,6 +12,8 @@ namespace TaxeiaAnaptuksi_Gerovasilis_Kypraios
 {
     public partial class CalendarEvents : Form
     {
+        //private string anoynmous;
+
         public CalendarEvents(string user)
         {
             InitializeComponent();
@@ -66,6 +68,15 @@ namespace TaxeiaAnaptuksi_Gerovasilis_Kypraios
         private void label43_Click(object sender, EventArgs e)
         {
             MessageBox.Show("Τουρνουά Σκάκι");
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            MainForm mainform = new MainForm("");
+            mainform.ShowDialog();
+            this.Close();
+            // Αποσυνδέεται ο χρήστης όταν γυρίζει στην αρχική
         }
     }
 }

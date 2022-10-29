@@ -148,3 +148,4 @@ C:\Users\gerob\OneDrive\Desktop\teliki_ergasia\TaxeiaAnaptixiEfarmogwn\obj\Debug
 C:\Users\gerob\OneDrive\Desktop\teliki_ergasia\TaxeiaAnaptixiEfarmogwn\obj\Debug\TaxeiaAnaptuksi_Gerovasilis_Kypraios.csproj.CopyComplete
 C:\Users\gerob\OneDrive\Desktop\teliki_ergasia\TaxeiaAnaptixiEfarmogwn\obj\Debug\TaxeiaAnaptuksi_Gerovasilis_Kypraios.exe
 C:\Users\gerob\OneDrive\Desktop\teliki_ergasia\TaxeiaAnaptixiEfarmogwn\obj\Debug\TaxeiaAnaptuksi_Gerovasilis_Kypraios.pdb
+C:\Users\gerob\OneDrive\Desktop\teliki_ergasia\TaxeiaAnaptixiEfarmogwn\obj\Debug\TaxeiaAnaptuksi_Gerovasilis_Kypraios.MenuSitisis.resources

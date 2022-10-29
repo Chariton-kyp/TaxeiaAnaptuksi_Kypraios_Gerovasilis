@@ -55,5 +55,20 @@ namespace TaxeiaAnaptuksi_Gerovasilis_Kypraios
         {
             
         }
+
+        private void aboutToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Χαρίτον Κυπραίος & Κωνσταντίνος Γεροβασίλης");
+        }
+
+        private void αρχικήΣελίδαToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            axWindowsMediaPlayer1.Ctlcontrols.stop();
+            this.Hide();
+            MainForm mainform = new MainForm("");
+            mainform.ShowDialog();       
+            this.Close();           
+            // Αποσυνδέεται ο χρήστης όταν γυρίζει στην αρχική
+        }
     }
 }

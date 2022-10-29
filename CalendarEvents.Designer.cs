@@ -35,6 +35,7 @@
             this.panel3 = new System.Windows.Forms.Panel();
             this.label9 = new System.Windows.Forms.Label();
             this.panel4 = new System.Windows.Forms.Panel();
+            this.label39 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
             this.panel5 = new System.Windows.Forms.Panel();
             this.label11 = new System.Windows.Forms.Label();
@@ -45,6 +46,7 @@
             this.panel8 = new System.Windows.Forms.Panel();
             this.label15 = new System.Windows.Forms.Label();
             this.panel9 = new System.Windows.Forms.Panel();
+            this.label43 = new System.Windows.Forms.Label();
             this.label16 = new System.Windows.Forms.Label();
             this.panel10 = new System.Windows.Forms.Panel();
             this.label17 = new System.Windows.Forms.Label();
@@ -63,6 +65,7 @@
             this.panel17 = new System.Windows.Forms.Panel();
             this.label24 = new System.Windows.Forms.Label();
             this.panel18 = new System.Windows.Forms.Panel();
+            this.label40 = new System.Windows.Forms.Label();
             this.label25 = new System.Windows.Forms.Label();
             this.panel19 = new System.Windows.Forms.Panel();
             this.label26 = new System.Windows.Forms.Label();
@@ -73,6 +76,7 @@
             this.panel22 = new System.Windows.Forms.Panel();
             this.label29 = new System.Windows.Forms.Label();
             this.panel23 = new System.Windows.Forms.Panel();
+            this.label41 = new System.Windows.Forms.Label();
             this.label30 = new System.Windows.Forms.Label();
             this.panel24 = new System.Windows.Forms.Panel();
             this.label31 = new System.Windows.Forms.Label();
@@ -89,6 +93,7 @@
             this.panel30 = new System.Windows.Forms.Panel();
             this.label37 = new System.Windows.Forms.Label();
             this.panel31 = new System.Windows.Forms.Panel();
+            this.label42 = new System.Windows.Forms.Label();
             this.label38 = new System.Windows.Forms.Label();
             this.panel32 = new System.Windows.Forms.Panel();
             this.panel33 = new System.Windows.Forms.Panel();
@@ -102,11 +107,8 @@
             this.label7 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
-            this.label39 = new System.Windows.Forms.Label();
-            this.label40 = new System.Windows.Forms.Label();
-            this.label41 = new System.Windows.Forms.Label();
-            this.label42 = new System.Windows.Forms.Label();
-            this.label43 = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
             this.daycontainer.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
@@ -240,6 +242,17 @@
             this.panel4.Size = new System.Drawing.Size(165, 97);
             this.panel4.TabIndex = 3;
             // 
+            // label39
+            // 
+            this.label39.AutoSize = true;
+            this.label39.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
+            this.label39.Location = new System.Drawing.Point(50, 47);
+            this.label39.Name = "label39";
+            this.label39.Size = new System.Drawing.Size(73, 20);
+            this.label39.TabIndex = 2;
+            this.label39.Text = "Γεγονός";
+            this.label39.Click += new System.EventHandler(this.label39_Click);
+            // 
             // label10
             // 
             this.label10.AutoSize = true;
@@ -335,6 +348,17 @@
             this.panel9.Name = "panel9";
             this.panel9.Size = new System.Drawing.Size(165, 97);
             this.panel9.TabIndex = 8;
+            // 
+            // label43
+            // 
+            this.label43.AutoSize = true;
+            this.label43.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
+            this.label43.Location = new System.Drawing.Point(53, 38);
+            this.label43.Name = "label43";
+            this.label43.Size = new System.Drawing.Size(73, 20);
+            this.label43.TabIndex = 3;
+            this.label43.Text = "Γεγονός";
+            this.label43.Click += new System.EventHandler(this.label43_Click);
             // 
             // label16
             // 
@@ -509,6 +533,17 @@
             this.panel18.Size = new System.Drawing.Size(165, 97);
             this.panel18.TabIndex = 17;
             // 
+            // label40
+            // 
+            this.label40.AutoSize = true;
+            this.label40.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
+            this.label40.Location = new System.Drawing.Point(50, 42);
+            this.label40.Name = "label40";
+            this.label40.Size = new System.Drawing.Size(73, 20);
+            this.label40.TabIndex = 3;
+            this.label40.Text = "Γεγονός";
+            this.label40.Click += new System.EventHandler(this.label40_Click);
+            // 
             // label25
             // 
             this.label25.AutoSize = true;
@@ -604,6 +639,17 @@
             this.panel23.Name = "panel23";
             this.panel23.Size = new System.Drawing.Size(165, 97);
             this.panel23.TabIndex = 22;
+            // 
+            // label41
+            // 
+            this.label41.AutoSize = true;
+            this.label41.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
+            this.label41.Location = new System.Drawing.Point(53, 45);
+            this.label41.Name = "label41";
+            this.label41.Size = new System.Drawing.Size(73, 20);
+            this.label41.TabIndex = 4;
+            this.label41.Text = "Γεγονός";
+            this.label41.Click += new System.EventHandler(this.label41_Click);
             // 
             // label30
             // 
@@ -758,6 +804,17 @@
             this.panel31.Size = new System.Drawing.Size(165, 97);
             this.panel31.TabIndex = 30;
             // 
+            // label42
+            // 
+            this.label42.AutoSize = true;
+            this.label42.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
+            this.label42.Location = new System.Drawing.Point(54, 47);
+            this.label42.Name = "label42";
+            this.label42.Size = new System.Drawing.Size(73, 20);
+            this.label42.TabIndex = 5;
+            this.label42.Text = "Γεγονός";
+            this.label42.Click += new System.EventHandler(this.label42_Click);
+            // 
             // label38
             // 
             this.label38.AutoSize = true;
@@ -876,66 +933,32 @@
             this.label14.TabIndex = 9;
             this.label14.Text = "Νοέμβριος";
             // 
-            // label39
+            // button1
             // 
-            this.label39.AutoSize = true;
-            this.label39.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
-            this.label39.Location = new System.Drawing.Point(50, 47);
-            this.label39.Name = "label39";
-            this.label39.Size = new System.Drawing.Size(73, 20);
-            this.label39.TabIndex = 2;
-            this.label39.Text = "Γεγονός";
-            this.label39.Click += new System.EventHandler(this.label39_Click);
+            this.button1.Location = new System.Drawing.Point(1085, 643);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(118, 32);
+            this.button1.TabIndex = 10;
+            this.button1.Text = "Αρχικό Μενού";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // label40
+            // button2
             // 
-            this.label40.AutoSize = true;
-            this.label40.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
-            this.label40.Location = new System.Drawing.Point(50, 42);
-            this.label40.Name = "label40";
-            this.label40.Size = new System.Drawing.Size(73, 20);
-            this.label40.TabIndex = 3;
-            this.label40.Text = "Γεγονός";
-            this.label40.Click += new System.EventHandler(this.label40_Click);
-            // 
-            // label41
-            // 
-            this.label41.AutoSize = true;
-            this.label41.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
-            this.label41.Location = new System.Drawing.Point(53, 45);
-            this.label41.Name = "label41";
-            this.label41.Size = new System.Drawing.Size(73, 20);
-            this.label41.TabIndex = 4;
-            this.label41.Text = "Γεγονός";
-            this.label41.Click += new System.EventHandler(this.label41_Click);
-            // 
-            // label42
-            // 
-            this.label42.AutoSize = true;
-            this.label42.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
-            this.label42.Location = new System.Drawing.Point(54, 47);
-            this.label42.Name = "label42";
-            this.label42.Size = new System.Drawing.Size(73, 20);
-            this.label42.TabIndex = 5;
-            this.label42.Text = "Γεγονός";
-            this.label42.Click += new System.EventHandler(this.label42_Click);
-            // 
-            // label43
-            // 
-            this.label43.AutoSize = true;
-            this.label43.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
-            this.label43.Location = new System.Drawing.Point(53, 38);
-            this.label43.Name = "label43";
-            this.label43.Size = new System.Drawing.Size(73, 20);
-            this.label43.TabIndex = 3;
-            this.label43.Text = "Γεγονός";
-            this.label43.Click += new System.EventHandler(this.label43_Click);
+            this.button2.Location = new System.Drawing.Point(949, 643);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(118, 32);
+            this.button2.TabIndex = 11;
+            this.button2.Text = "About";
+            this.button2.UseVisualStyleBackColor = true;
             // 
             // CalendarEvents
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1223, 671);
+            this.ClientSize = new System.Drawing.Size(1223, 687);
+            this.Controls.Add(this.button2);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.label14);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label7);
@@ -1095,5 +1118,7 @@
         private System.Windows.Forms.Label label41;
         private System.Windows.Forms.Label label42;
         private System.Windows.Forms.Label label43;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button button2;
     }
 }
