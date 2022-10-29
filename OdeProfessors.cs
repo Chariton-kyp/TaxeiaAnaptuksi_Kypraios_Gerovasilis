@@ -5,9 +5,24 @@ namespace TaxeiaAnaptuksi_Gerovasilis_Kypraios
 {
     public partial class OdeProfessors : Form
     {
+        private void GoFullscreen(bool fullscreen)
+        {
+            if (fullscreen)
+            {
+                this.WindowState = FormWindowState.Normal;
+                this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+                this.Bounds = Screen.PrimaryScreen.Bounds;
+            }
+            else
+            {
+                this.WindowState = FormWindowState.Maximized;
+                this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Sizable;
+            }
+        }
         public OdeProfessors()
         {
             InitializeComponent();
+            GoFullscreen(true);
         }
 
         private void OdeProfessors_Load(object sender, EventArgs e)

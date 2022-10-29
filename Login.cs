@@ -13,6 +13,7 @@ namespace TaxeiaAnaptuksi_Gerovasilis_Kypraios
         public Login()
         {
             InitializeComponent();
+            GoFullscreen(true);
         }
 
 
@@ -92,6 +93,11 @@ namespace TaxeiaAnaptuksi_Gerovasilis_Kypraios
             MainForm mainForm = new MainForm(anonymous);
             mainForm.ShowDialog();
             this.Close();
+        }
+
+        private void menuStrip1_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
+        {
+
         }
     }
 }

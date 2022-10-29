@@ -30,9 +30,6 @@
         {
             this.components = new System.ComponentModel.Container();
             this.button1 = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.label2 = new System.Windows.Forms.Label();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.mainToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.reviewsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -48,7 +45,6 @@
             this.linkLabel2 = new System.Windows.Forms.LinkLabel();
             this.label3 = new System.Windows.Forms.Label();
             this.linkLabel3 = new System.Windows.Forms.LinkLabel();
-            this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.button2 = new System.Windows.Forms.Button();
@@ -64,8 +60,8 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.button5 = new System.Windows.Forms.Button();
             this.panel36 = new System.Windows.Forms.Panel();
-            this.richTextBox2 = new System.Windows.Forms.RichTextBox();
-            this.richTextBox3 = new System.Windows.Forms.RichTextBox();
+            this.richTextBox8 = new System.Windows.Forms.RichTextBox();
+            this.richTextBox9 = new System.Windows.Forms.RichTextBox();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
@@ -80,41 +76,13 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(0, 0);
+            this.button1.Location = new System.Drawing.Point(12, 358);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(100, 28);
             this.button1.TabIndex = 0;
             this.button1.Text = "button1";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(329, 569);
-            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(35, 13);
-            this.label1.TabIndex = 1;
-            this.label1.Text = "label1";
-            // 
-            // textBox1
-            // 
-            this.textBox1.Location = new System.Drawing.Point(353, 528);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(4);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(132, 20);
-            this.textBox1.TabIndex = 2;
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(241, 569);
-            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(35, 13);
-            this.label2.TabIndex = 3;
-            this.label2.Text = "label2";
             // 
             // menuStrip1
             // 
@@ -129,7 +97,7 @@
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Padding = new System.Windows.Forms.Padding(5, 2, 0, 2);
-            this.menuStrip1.Size = new System.Drawing.Size(1710, 27);
+            this.menuStrip1.Size = new System.Drawing.Size(1401, 27);
             this.menuStrip1.TabIndex = 4;
             this.menuStrip1.Text = "menuStrip1";
             this.menuStrip1.ItemClicked += new System.Windows.Forms.ToolStripItemClickedEventHandler(this.menuStrip1_ItemClicked);
@@ -220,7 +188,7 @@
             this.linkLabel1.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
             this.linkLabel1.LinkBehavior = System.Windows.Forms.LinkBehavior.HoverUnderline;
             this.linkLabel1.LinkColor = System.Drawing.Color.Black;
-            this.linkLabel1.Location = new System.Drawing.Point(1249, 59);
+            this.linkLabel1.Location = new System.Drawing.Point(1044, 32);
             this.linkLabel1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.linkLabel1.Name = "linkLabel1";
             this.linkLabel1.Size = new System.Drawing.Size(63, 19);
@@ -239,7 +207,7 @@
             this.linkLabel2.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
             this.linkLabel2.LinkBehavior = System.Windows.Forms.LinkBehavior.HoverUnderline;
             this.linkLabel2.LinkColor = System.Drawing.Color.Black;
-            this.linkLabel2.Location = new System.Drawing.Point(1341, 59);
+            this.linkLabel2.Location = new System.Drawing.Point(1136, 32);
             this.linkLabel2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.linkLabel2.Name = "linkLabel2";
             this.linkLabel2.Size = new System.Drawing.Size(44, 19);
@@ -256,7 +224,7 @@
             this.label3.AutoSize = true;
             this.label3.BackColor = System.Drawing.SystemColors.Control;
             this.label3.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
-            this.label3.Location = new System.Drawing.Point(1326, 59);
+            this.label3.Location = new System.Drawing.Point(1121, 32);
             this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(15, 19);
@@ -270,7 +238,7 @@
             this.linkLabel3.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
             this.linkLabel3.LinkBehavior = System.Windows.Forms.LinkBehavior.HoverUnderline;
             this.linkLabel3.LinkColor = System.Drawing.Color.Black;
-            this.linkLabel3.Location = new System.Drawing.Point(1326, 59);
+            this.linkLabel3.Location = new System.Drawing.Point(1121, 32);
             this.linkLabel3.Name = "linkLabel3";
             this.linkLabel3.Size = new System.Drawing.Size(53, 19);
             this.linkLabel3.TabIndex = 8;
@@ -280,15 +248,6 @@
             this.linkLabel3.UseMnemonic = false;
             this.linkLabel3.VisitedLinkColor = System.Drawing.Color.Black;
             this.linkLabel3.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel3_LinkClicked);
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(407, 569);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(35, 13);
-            this.label4.TabIndex = 9;
-            this.label4.Text = "label4";
             // 
             // label5
             // 
@@ -309,7 +268,7 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(721, 444);
+            this.button2.Location = new System.Drawing.Point(516, 417);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(291, 37);
             this.button2.TabIndex = 19;
@@ -319,14 +278,14 @@
             // 
             // monthCalendar1
             // 
-            this.monthCalendar1.Location = new System.Drawing.Point(1345, 114);
+            this.monthCalendar1.Location = new System.Drawing.Point(1140, 87);
             this.monthCalendar1.Name = "monthCalendar1";
             this.monthCalendar1.TabIndex = 20;
             // 
             // button3
             // 
             this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
-            this.button3.Location = new System.Drawing.Point(1377, 369);
+            this.button3.Location = new System.Drawing.Point(1172, 342);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(206, 59);
             this.button3.TabIndex = 21;
@@ -337,7 +296,7 @@
             // pictureBox8
             // 
             this.pictureBox8.Image = global::TaxeiaAnaptuksi_Gerovasilis_Kypraios.Properties.Resources.Παπει_Βιβλιοθηκη;
-            this.pictureBox8.Location = new System.Drawing.Point(460, 104);
+            this.pictureBox8.Location = new System.Drawing.Point(255, 77);
             this.pictureBox8.Name = "pictureBox8";
             this.pictureBox8.Size = new System.Drawing.Size(750, 298);
             this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -348,7 +307,7 @@
             // pictureBox7
             // 
             this.pictureBox7.Image = global::TaxeiaAnaptuksi_Gerovasilis_Kypraios.Properties.Resources.Βιβλιοθηκη_Παπει;
-            this.pictureBox7.Location = new System.Drawing.Point(460, 104);
+            this.pictureBox7.Location = new System.Drawing.Point(255, 77);
             this.pictureBox7.Name = "pictureBox7";
             this.pictureBox7.Size = new System.Drawing.Size(750, 298);
             this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -359,7 +318,7 @@
             // pictureBox6
             // 
             this.pictureBox6.Image = global::TaxeiaAnaptuksi_Gerovasilis_Kypraios.Properties.Resources.Αμφιθεατρα_Παπει;
-            this.pictureBox6.Location = new System.Drawing.Point(460, 104);
+            this.pictureBox6.Location = new System.Drawing.Point(255, 77);
             this.pictureBox6.Name = "pictureBox6";
             this.pictureBox6.Size = new System.Drawing.Size(750, 298);
             this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -369,7 +328,7 @@
             // pictureBox5
             // 
             this.pictureBox5.Image = global::TaxeiaAnaptuksi_Gerovasilis_Kypraios.Properties.Resources.Κεντρικό_Κτήριο;
-            this.pictureBox5.Location = new System.Drawing.Point(460, 104);
+            this.pictureBox5.Location = new System.Drawing.Point(255, 77);
             this.pictureBox5.Name = "pictureBox5";
             this.pictureBox5.Size = new System.Drawing.Size(750, 298);
             this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -379,7 +338,7 @@
             // pictureBox4
             // 
             this.pictureBox4.Image = global::TaxeiaAnaptuksi_Gerovasilis_Kypraios.Properties.Resources.Παπει;
-            this.pictureBox4.Location = new System.Drawing.Point(460, 104);
+            this.pictureBox4.Location = new System.Drawing.Point(255, 77);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(750, 298);
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -389,7 +348,7 @@
             // pictureBox3
             // 
             this.pictureBox3.Image = global::TaxeiaAnaptuksi_Gerovasilis_Kypraios.Properties.Resources.Παπει_Εισοδος_2;
-            this.pictureBox3.Location = new System.Drawing.Point(460, 104);
+            this.pictureBox3.Location = new System.Drawing.Point(255, 77);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(750, 298);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -399,7 +358,7 @@
             // pictureBox2
             // 
             this.pictureBox2.Image = global::TaxeiaAnaptuksi_Gerovasilis_Kypraios.Properties.Resources.Παπει_Εισοδος;
-            this.pictureBox2.Location = new System.Drawing.Point(460, 104);
+            this.pictureBox2.Location = new System.Drawing.Point(255, 77);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(750, 298);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -409,7 +368,7 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = global::TaxeiaAnaptuksi_Gerovasilis_Kypraios.Properties.Resources.Λογοτυπο_Παπει;
-            this.pictureBox1.Location = new System.Drawing.Point(460, 104);
+            this.pictureBox1.Location = new System.Drawing.Point(255, 77);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(750, 298);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -419,7 +378,7 @@
             // button5
             // 
             this.button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
-            this.button5.Location = new System.Drawing.Point(218, 210);
+            this.button5.Location = new System.Drawing.Point(13, 183);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(177, 151);
             this.button5.TabIndex = 23;
@@ -430,45 +389,45 @@
             // panel36
             // 
             this.panel36.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(44)))), ((int)(((byte)(84)))));
-            this.panel36.Controls.Add(this.richTextBox2);
-            this.panel36.Controls.Add(this.richTextBox3);
-            this.panel36.Location = new System.Drawing.Point(0, 725);
+            this.panel36.Controls.Add(this.richTextBox8);
+            this.panel36.Controls.Add(this.richTextBox9);
+            this.panel36.Location = new System.Drawing.Point(0, 632);
             this.panel36.Name = "panel36";
-            this.panel36.Size = new System.Drawing.Size(1710, 251);
-            this.panel36.TabIndex = 24;
+            this.panel36.Size = new System.Drawing.Size(1401, 183);
+            this.panel36.TabIndex = 26;
             // 
-            // richTextBox2
+            // richTextBox8
             // 
-            this.richTextBox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(44)))), ((int)(((byte)(84)))));
-            this.richTextBox2.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.richTextBox2.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
-            this.richTextBox2.ForeColor = System.Drawing.Color.White;
-            this.richTextBox2.Location = new System.Drawing.Point(1172, 23);
-            this.richTextBox2.Name = "richTextBox2";
-            this.richTextBox2.ReadOnly = true;
-            this.richTextBox2.Size = new System.Drawing.Size(335, 174);
-            this.richTextBox2.TabIndex = 1;
-            this.richTextBox2.Text = "Produced Academic Purposes\n\nUniversity of Piraeus\n\nΤαχεία Ανάπτυξη Εφαρμογών";
+            this.richTextBox8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(44)))), ((int)(((byte)(84)))));
+            this.richTextBox8.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.richTextBox8.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
+            this.richTextBox8.ForeColor = System.Drawing.Color.White;
+            this.richTextBox8.Location = new System.Drawing.Point(996, 23);
+            this.richTextBox8.Name = "richTextBox8";
+            this.richTextBox8.ReadOnly = true;
+            this.richTextBox8.Size = new System.Drawing.Size(335, 174);
+            this.richTextBox8.TabIndex = 1;
+            this.richTextBox8.Text = "Produced for Academic Purposes\n\nUniversity of Piraeus\n\nΤαχεία Ανάπτυξη Εφαρμογών";
             // 
-            // richTextBox3
+            // richTextBox9
             // 
-            this.richTextBox3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(44)))), ((int)(((byte)(84)))));
-            this.richTextBox3.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.richTextBox3.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
-            this.richTextBox3.ForeColor = System.Drawing.Color.White;
-            this.richTextBox3.Location = new System.Drawing.Point(102, 23);
-            this.richTextBox3.Name = "richTextBox3";
-            this.richTextBox3.ReadOnly = true;
-            this.richTextBox3.Size = new System.Drawing.Size(335, 174);
-            this.richTextBox3.TabIndex = 0;
-            this.richTextBox3.Text = " ΣΤΟΙΧΕΙΑ ΕΠΙΚΟΙΝΩΝΙΑΣ\n Διεύθυνση: Μ. Καραολή & Α. Δημητρίου 80, \n18534 Πειραιάς\n" +
+            this.richTextBox9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(44)))), ((int)(((byte)(84)))));
+            this.richTextBox9.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.richTextBox9.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
+            this.richTextBox9.ForeColor = System.Drawing.Color.White;
+            this.richTextBox9.Location = new System.Drawing.Point(102, 23);
+            this.richTextBox9.Name = "richTextBox9";
+            this.richTextBox9.ReadOnly = true;
+            this.richTextBox9.Size = new System.Drawing.Size(335, 174);
+            this.richTextBox9.TabIndex = 0;
+            this.richTextBox9.Text = " ΣΤΟΙΧΕΙΑ ΕΠΙΚΟΙΝΩΝΙΑΣ\n Διεύθυνση: Μ. Καραολή & Α. Δημητρίου 80, \n18534 Πειραιάς\n" +
     "\n Τηλ. Κέντρο: 210 4142000\n\n Fax: 210 4142328";
             // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1710, 974);
+            this.ClientSize = new System.Drawing.Size(1401, 810);
             this.Controls.Add(this.panel36);
             this.Controls.Add(this.button5);
             this.Controls.Add(this.button3);
@@ -483,14 +442,10 @@
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.label5);
-            this.Controls.Add(this.label4);
             this.Controls.Add(this.linkLabel3);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.linkLabel2);
             this.Controls.Add(this.linkLabel1);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.label1);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
@@ -517,16 +472,12 @@
         #endregion
 
         private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.Label label2;
         private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.ToolStripMenuItem mainToolStripMenuItem;
         private System.Windows.Forms.LinkLabel linkLabel1;
         private System.Windows.Forms.LinkLabel linkLabel2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.LinkLabel linkLabel3;
-        private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.ToolStripMenuItem reviewsToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem exitToolStripMenuItem;
@@ -551,8 +502,8 @@
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button5;
         private System.Windows.Forms.Panel panel36;
-        private System.Windows.Forms.RichTextBox richTextBox2;
-        private System.Windows.Forms.RichTextBox richTextBox3;
+        private System.Windows.Forms.RichTextBox richTextBox8;
+        private System.Windows.Forms.RichTextBox richTextBox9;
     }
 }
 

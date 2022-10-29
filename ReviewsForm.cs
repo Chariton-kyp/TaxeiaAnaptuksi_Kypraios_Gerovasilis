@@ -58,7 +58,7 @@ namespace TaxeiaAnaptuksi_Gerovasilis_Kypraios
             connection2 = new SQLiteConnection(connectionString2);
 
             ReviewsLoad();
-            //GoFullscreen(true);
+            GoFullscreen(true);
 
         }
 

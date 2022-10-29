@@ -1,20 +1,29 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace TaxeiaAnaptuksi_Gerovasilis_Kypraios
 {
     public partial class MenuSitisis : Form
     {
+        private void GoFullscreen(bool fullscreen)
+        {
+            if (fullscreen)
+            {
+                this.WindowState = FormWindowState.Normal;
+                this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+                this.Bounds = Screen.PrimaryScreen.Bounds;
+            }
+            else
+            {
+                this.WindowState = FormWindowState.Maximized;
+                this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Sizable;
+            }
+        }
+
         public MenuSitisis()
         {
             InitializeComponent();
+            GoFullscreen(true);
         }
 
         private void MenuSitisis_Load(object sender, EventArgs e)
@@ -41,6 +50,11 @@ namespace TaxeiaAnaptuksi_Gerovasilis_Kypraios
         }
 
         private void aboutToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void richTextBox9_TextChanged(object sender, EventArgs e)
         {
 
         }
