@@ -20,4 +20,6 @@ obj/Debug/DesignTimeResolveAssemblyReferences.cache
 */FileContentIndex
 */obj/Debug/DesignTimeResolveAssemblyReferences.cache
 */obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache
-
+/.vs/**/
+.vs/**/suo
+/.vs/**
