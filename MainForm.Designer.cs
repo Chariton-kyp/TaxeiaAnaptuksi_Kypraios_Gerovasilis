@@ -39,18 +39,18 @@
             this.exitToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.σχολέςToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.τμήμαΠληροφορικήςToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.καθηγητέςToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.τμήμαΟΔΕToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.καθηγητέςToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.τμήμαΟικονομικώνToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.καθηγητέςToolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
             this.linkLabel1 = new System.Windows.Forms.LinkLabel();
             this.linkLabel2 = new System.Windows.Forms.LinkLabel();
             this.label3 = new System.Windows.Forms.Label();
             this.linkLabel3 = new System.Windows.Forms.LinkLabel();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
-            this.καθηγητέςToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.καθηγητέςToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
-            this.καθηγητέςToolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
- this.timer1 = new System.Windows.Forms.Timer(this.components);
+            this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.button2 = new System.Windows.Forms.Button();
             this.monthCalendar1 = new System.Windows.Forms.MonthCalendar();
             this.button3 = new System.Windows.Forms.Button();
@@ -63,6 +63,9 @@
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.button5 = new System.Windows.Forms.Button();
+            this.panel36 = new System.Windows.Forms.Panel();
+            this.richTextBox2 = new System.Windows.Forms.RichTextBox();
+            this.richTextBox3 = new System.Windows.Forms.RichTextBox();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
@@ -72,10 +75,12 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.panel36.SuspendLayout();
             this.SuspendLayout();
             // 
             // button1
             // 
+            this.button1.Location = new System.Drawing.Point(0, 0);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(100, 28);
             this.button1.TabIndex = 0;
@@ -85,28 +90,28 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(123, 543);
+            this.label1.Location = new System.Drawing.Point(329, 569);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(44, 16);
+            this.label1.Size = new System.Drawing.Size(35, 13);
             this.label1.TabIndex = 1;
             this.label1.Text = "label1";
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(147, 502);
+            this.textBox1.Location = new System.Drawing.Point(353, 528);
             this.textBox1.Margin = new System.Windows.Forms.Padding(4);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(132, 22);
+            this.textBox1.Size = new System.Drawing.Size(132, 20);
             this.textBox1.TabIndex = 2;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(35, 543);
+            this.label2.Location = new System.Drawing.Point(241, 569);
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(44, 16);
+            this.label2.Size = new System.Drawing.Size(35, 13);
             this.label2.TabIndex = 3;
             this.label2.Text = "label2";
             // 
@@ -123,7 +128,7 @@
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Padding = new System.Windows.Forms.Padding(5, 2, 0, 2);
-            this.menuStrip1.Size = new System.Drawing.Size(1496, 32);
+            this.menuStrip1.Size = new System.Drawing.Size(1710, 27);
             this.menuStrip1.TabIndex = 4;
             this.menuStrip1.Text = "menuStrip1";
             this.menuStrip1.ItemClicked += new System.Windows.Forms.ToolStripItemClickedEventHandler(this.menuStrip1_ItemClicked);
@@ -131,13 +136,13 @@
             // mainToolStripMenuItem
             // 
             this.mainToolStripMenuItem.Name = "mainToolStripMenuItem";
-            this.mainToolStripMenuItem.Size = new System.Drawing.Size(67, 28);
+            this.mainToolStripMenuItem.Size = new System.Drawing.Size(54, 23);
             this.mainToolStripMenuItem.Text = "Main";
             // 
             // reviewsToolStripMenuItem
             // 
             this.reviewsToolStripMenuItem.Name = "reviewsToolStripMenuItem";
-            this.reviewsToolStripMenuItem.Size = new System.Drawing.Size(91, 28);
+            this.reviewsToolStripMenuItem.Size = new System.Drawing.Size(75, 23);
             this.reviewsToolStripMenuItem.Text = "Reviews";
             this.reviewsToolStripMenuItem.Click += new System.EventHandler(this.reviewsToolStripMenuItem_Click);
             // 
@@ -168,6 +173,13 @@
             this.τμήμαΠληροφορικήςToolStripMenuItem.Text = "Τμήμα Πληροφορικής";
             this.τμήμαΠληροφορικήςToolStripMenuItem.Click += new System.EventHandler(this.τμήμαΠληροφορικήςToolStripMenuItem_Click);
             // 
+            // καθηγητέςToolStripMenuItem
+            // 
+            this.καθηγητέςToolStripMenuItem.Name = "καθηγητέςToolStripMenuItem";
+            this.καθηγητέςToolStripMenuItem.Size = new System.Drawing.Size(149, 24);
+            this.καθηγητέςToolStripMenuItem.Text = "Καθηγητές";
+            this.καθηγητέςToolStripMenuItem.Click += new System.EventHandler(this.καθηγητέςToolStripMenuItem_Click);
+            // 
             // τμήμαΟΔΕToolStripMenuItem
             // 
             this.τμήμαΟΔΕToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
@@ -176,6 +188,13 @@
             this.τμήμαΟΔΕToolStripMenuItem.Size = new System.Drawing.Size(221, 24);
             this.τμήμαΟΔΕToolStripMenuItem.Text = "Τμήμα ΟΔΕ";
             this.τμήμαΟΔΕToolStripMenuItem.Click += new System.EventHandler(this.τμήμαΟΔΕToolStripMenuItem_Click);
+            // 
+            // καθηγητέςToolStripMenuItem1
+            // 
+            this.καθηγητέςToolStripMenuItem1.Name = "καθηγητέςToolStripMenuItem1";
+            this.καθηγητέςToolStripMenuItem1.Size = new System.Drawing.Size(149, 24);
+            this.καθηγητέςToolStripMenuItem1.Text = "Καθηγητές";
+            this.καθηγητέςToolStripMenuItem1.Click += new System.EventHandler(this.καθηγητέςToolStripMenuItem1_Click);
             // 
             // τμήμαΟικονομικώνToolStripMenuItem
             // 
@@ -186,6 +205,13 @@
             this.τμήμαΟικονομικώνToolStripMenuItem.Text = "Τμήμα Οικονομικών";
             this.τμήμαΟικονομικώνToolStripMenuItem.Click += new System.EventHandler(this.τμήμαΟικονομικώνToolStripMenuItem_Click);
             // 
+            // καθηγητέςToolStripMenuItem2
+            // 
+            this.καθηγητέςToolStripMenuItem2.Name = "καθηγητέςToolStripMenuItem2";
+            this.καθηγητέςToolStripMenuItem2.Size = new System.Drawing.Size(149, 24);
+            this.καθηγητέςToolStripMenuItem2.Text = "Καθηγητές";
+            this.καθηγητέςToolStripMenuItem2.Click += new System.EventHandler(this.καθηγητέςToolStripMenuItem2_Click);
+            // 
             // linkLabel1
             // 
             this.linkLabel1.AutoSize = true;
@@ -193,10 +219,10 @@
             this.linkLabel1.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
             this.linkLabel1.LinkBehavior = System.Windows.Forms.LinkBehavior.HoverUnderline;
             this.linkLabel1.LinkColor = System.Drawing.Color.Black;
-            this.linkLabel1.Location = new System.Drawing.Point(1043, 33);
+            this.linkLabel1.Location = new System.Drawing.Point(1249, 59);
             this.linkLabel1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.linkLabel1.Name = "linkLabel1";
-            this.linkLabel1.Size = new System.Drawing.Size(77, 24);
+            this.linkLabel1.Size = new System.Drawing.Size(63, 19);
             this.linkLabel1.TabIndex = 5;
             this.linkLabel1.TabStop = true;
             this.linkLabel1.Text = "Register";
@@ -212,10 +238,10 @@
             this.linkLabel2.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
             this.linkLabel2.LinkBehavior = System.Windows.Forms.LinkBehavior.HoverUnderline;
             this.linkLabel2.LinkColor = System.Drawing.Color.Black;
-            this.linkLabel2.Location = new System.Drawing.Point(1135, 33);
+            this.linkLabel2.Location = new System.Drawing.Point(1341, 59);
             this.linkLabel2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.linkLabel2.Name = "linkLabel2";
-            this.linkLabel2.Size = new System.Drawing.Size(54, 24);
+            this.linkLabel2.Size = new System.Drawing.Size(44, 19);
             this.linkLabel2.TabIndex = 6;
             this.linkLabel2.TabStop = true;
             this.linkLabel2.Text = "Login";
@@ -229,10 +255,10 @@
             this.label3.AutoSize = true;
             this.label3.BackColor = System.Drawing.SystemColors.Control;
             this.label3.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
-            this.label3.Location = new System.Drawing.Point(1120, 33);
+            this.label3.Location = new System.Drawing.Point(1326, 59);
             this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(18, 24);
+            this.label3.Size = new System.Drawing.Size(15, 19);
             this.label3.TabIndex = 7;
             this.label3.Text = "/";
             // 
@@ -243,9 +269,9 @@
             this.linkLabel3.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
             this.linkLabel3.LinkBehavior = System.Windows.Forms.LinkBehavior.HoverUnderline;
             this.linkLabel3.LinkColor = System.Drawing.Color.Black;
-            this.linkLabel3.Location = new System.Drawing.Point(1120, 33);
+            this.linkLabel3.Location = new System.Drawing.Point(1326, 59);
             this.linkLabel3.Name = "linkLabel3";
-            this.linkLabel3.Size = new System.Drawing.Size(67, 24);
+            this.linkLabel3.Size = new System.Drawing.Size(53, 19);
             this.linkLabel3.TabIndex = 8;
             this.linkLabel3.TabStop = true;
             this.linkLabel3.Text = "Logout";
@@ -257,9 +283,9 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(201, 543);
+            this.label4.Location = new System.Drawing.Point(407, 569);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(44, 16);
+            this.label4.Size = new System.Drawing.Size(35, 13);
             this.label4.TabIndex = 9;
             this.label4.Text = "label4";
             // 
@@ -270,34 +296,10 @@
             this.label5.Location = new System.Drawing.Point(1044, 11);
             this.label5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(79, 16);
+            this.label5.Size = new System.Drawing.Size(66, 13);
             this.label5.TabIndex = 10;
             this.label5.Text = "current user:";
             this.label5.Click += new System.EventHandler(this.label5_Click);
-            // 
-            // καθηγητέςToolStripMenuItem
-            // 
-            this.καθηγητέςToolStripMenuItem.Name = "καθηγητέςToolStripMenuItem";
-            this.καθηγητέςToolStripMenuItem.Size = new System.Drawing.Size(180, 24);
-            this.καθηγητέςToolStripMenuItem.Text = "Καθηγητές";
-            this.καθηγητέςToolStripMenuItem.Click += new System.EventHandler(this.καθηγητέςToolStripMenuItem_Click);
-            // 
-            // καθηγητέςToolStripMenuItem1
-            // 
-            this.καθηγητέςToolStripMenuItem1.Name = "καθηγητέςToolStripMenuItem1";
-            this.καθηγητέςToolStripMenuItem1.Size = new System.Drawing.Size(180, 24);
-            this.καθηγητέςToolStripMenuItem1.Text = "Καθηγητές";
-            this.καθηγητέςToolStripMenuItem1.Click += new System.EventHandler(this.καθηγητέςToolStripMenuItem1_Click);
-            // 
-            // καθηγητέςToolStripMenuItem2
-            // 
-            this.καθηγητέςToolStripMenuItem2.Name = "καθηγητέςToolStripMenuItem2";
-            this.καθηγητέςToolStripMenuItem2.Size = new System.Drawing.Size(180, 24);
-            this.καθηγητέςToolStripMenuItem2.Text = "Καθηγητές";
-            this.καθηγητέςToolStripMenuItem2.Click += new System.EventHandler(this.καθηγητέςToolStripMenuItem2_Click);
-            // 
-            // MainForm
-            // 
             // 
             // timer1
             // 
@@ -306,7 +308,7 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(515, 418);
+            this.button2.Location = new System.Drawing.Point(721, 444);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(291, 37);
             this.button2.TabIndex = 19;
@@ -316,14 +318,14 @@
             // 
             // monthCalendar1
             // 
-            this.monthCalendar1.Location = new System.Drawing.Point(1139, 88);
+            this.monthCalendar1.Location = new System.Drawing.Point(1345, 114);
             this.monthCalendar1.Name = "monthCalendar1";
             this.monthCalendar1.TabIndex = 20;
             // 
             // button3
             // 
             this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
-            this.button3.Location = new System.Drawing.Point(1171, 343);
+            this.button3.Location = new System.Drawing.Point(1377, 369);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(206, 59);
             this.button3.TabIndex = 21;
@@ -334,7 +336,7 @@
             // pictureBox8
             // 
             this.pictureBox8.Image = global::TaxeiaAnaptuksi_Gerovasilis_Kypraios.Properties.Resources.Παπει_Βιβλιοθηκη;
-            this.pictureBox8.Location = new System.Drawing.Point(254, 78);
+            this.pictureBox8.Location = new System.Drawing.Point(460, 104);
             this.pictureBox8.Name = "pictureBox8";
             this.pictureBox8.Size = new System.Drawing.Size(750, 298);
             this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -345,7 +347,7 @@
             // pictureBox7
             // 
             this.pictureBox7.Image = global::TaxeiaAnaptuksi_Gerovasilis_Kypraios.Properties.Resources.Βιβλιοθηκη_Παπει;
-            this.pictureBox7.Location = new System.Drawing.Point(254, 78);
+            this.pictureBox7.Location = new System.Drawing.Point(460, 104);
             this.pictureBox7.Name = "pictureBox7";
             this.pictureBox7.Size = new System.Drawing.Size(750, 298);
             this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -356,7 +358,7 @@
             // pictureBox6
             // 
             this.pictureBox6.Image = global::TaxeiaAnaptuksi_Gerovasilis_Kypraios.Properties.Resources.Αμφιθεατρα_Παπει;
-            this.pictureBox6.Location = new System.Drawing.Point(254, 78);
+            this.pictureBox6.Location = new System.Drawing.Point(460, 104);
             this.pictureBox6.Name = "pictureBox6";
             this.pictureBox6.Size = new System.Drawing.Size(750, 298);
             this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -366,7 +368,7 @@
             // pictureBox5
             // 
             this.pictureBox5.Image = global::TaxeiaAnaptuksi_Gerovasilis_Kypraios.Properties.Resources.Κεντρικό_Κτήριο;
-            this.pictureBox5.Location = new System.Drawing.Point(254, 78);
+            this.pictureBox5.Location = new System.Drawing.Point(460, 104);
             this.pictureBox5.Name = "pictureBox5";
             this.pictureBox5.Size = new System.Drawing.Size(750, 298);
             this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -376,7 +378,7 @@
             // pictureBox4
             // 
             this.pictureBox4.Image = global::TaxeiaAnaptuksi_Gerovasilis_Kypraios.Properties.Resources.Παπει;
-            this.pictureBox4.Location = new System.Drawing.Point(254, 78);
+            this.pictureBox4.Location = new System.Drawing.Point(460, 104);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(750, 298);
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -386,7 +388,7 @@
             // pictureBox3
             // 
             this.pictureBox3.Image = global::TaxeiaAnaptuksi_Gerovasilis_Kypraios.Properties.Resources.Παπει_Εισοδος_2;
-            this.pictureBox3.Location = new System.Drawing.Point(254, 78);
+            this.pictureBox3.Location = new System.Drawing.Point(460, 104);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(750, 298);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -396,7 +398,7 @@
             // pictureBox2
             // 
             this.pictureBox2.Image = global::TaxeiaAnaptuksi_Gerovasilis_Kypraios.Properties.Resources.Παπει_Εισοδος;
-            this.pictureBox2.Location = new System.Drawing.Point(254, 78);
+            this.pictureBox2.Location = new System.Drawing.Point(460, 104);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(750, 298);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -406,7 +408,7 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = global::TaxeiaAnaptuksi_Gerovasilis_Kypraios.Properties.Resources.Λογοτυπο_Παπει;
-            this.pictureBox1.Location = new System.Drawing.Point(254, 78);
+            this.pictureBox1.Location = new System.Drawing.Point(460, 104);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(750, 298);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -416,7 +418,7 @@
             // button5
             // 
             this.button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
-            this.button5.Location = new System.Drawing.Point(12, 184);
+            this.button5.Location = new System.Drawing.Point(218, 210);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(177, 151);
             this.button5.TabIndex = 23;
@@ -424,11 +426,49 @@
             this.button5.UseVisualStyleBackColor = true;
             this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
+            // panel36
+            // 
+            this.panel36.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(44)))), ((int)(((byte)(84)))));
+            this.panel36.Controls.Add(this.richTextBox2);
+            this.panel36.Controls.Add(this.richTextBox3);
+            this.panel36.Location = new System.Drawing.Point(0, 725);
+            this.panel36.Name = "panel36";
+            this.panel36.Size = new System.Drawing.Size(1710, 251);
+            this.panel36.TabIndex = 24;
+            // 
+            // richTextBox2
+            // 
+            this.richTextBox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(44)))), ((int)(((byte)(84)))));
+            this.richTextBox2.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.richTextBox2.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
+            this.richTextBox2.ForeColor = System.Drawing.Color.White;
+            this.richTextBox2.Location = new System.Drawing.Point(1172, 23);
+            this.richTextBox2.Name = "richTextBox2";
+            this.richTextBox2.ReadOnly = true;
+            this.richTextBox2.Size = new System.Drawing.Size(335, 174);
+            this.richTextBox2.TabIndex = 1;
+            this.richTextBox2.Text = "Produced Academic Purposes\n\nUniversity of Piraeus\n\nΤαχεία Ανάπτυξη Εφαρμογών";
+            // 
+            // richTextBox3
+            // 
+            this.richTextBox3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(44)))), ((int)(((byte)(84)))));
+            this.richTextBox3.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.richTextBox3.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
+            this.richTextBox3.ForeColor = System.Drawing.Color.White;
+            this.richTextBox3.Location = new System.Drawing.Point(102, 23);
+            this.richTextBox3.Name = "richTextBox3";
+            this.richTextBox3.ReadOnly = true;
+            this.richTextBox3.Size = new System.Drawing.Size(335, 174);
+            this.richTextBox3.TabIndex = 0;
+            this.richTextBox3.Text = " ΣΤΟΙΧΕΙΑ ΕΠΙΚΟΙΝΩΝΙΑΣ\n Διεύθυνση: Μ. Καραολή & Α. Δημητρίου 80, \n18534 Πειραιάς\n" +
+    "\n Τηλ. Κέντρο: 210 4142000\n\n Fax: 210 4142328";
+            // 
             // MainForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1496, 855);
+            this.ClientSize = new System.Drawing.Size(1710, 974);
+            this.Controls.Add(this.panel36);
             this.Controls.Add(this.button5);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.monthCalendar1);
@@ -467,6 +507,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.panel36.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -508,6 +549,9 @@
         private System.Windows.Forms.MonthCalendar monthCalendar1;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Panel panel36;
+        private System.Windows.Forms.RichTextBox richTextBox2;
+        private System.Windows.Forms.RichTextBox richTextBox3;
     }
 }
 

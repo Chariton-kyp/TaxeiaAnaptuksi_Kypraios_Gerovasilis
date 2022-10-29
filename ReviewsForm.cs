@@ -135,7 +135,7 @@ namespace TaxeiaAnaptuksi_Gerovasilis_Kypraios
                 while (reader.Read())
                 {
                     var titleToShow = new TextBox();
-                    titleToShow.Location = new System.Drawing.Point(12, 147 + counter * 170);
+                    titleToShow.Location = new System.Drawing.Point(350, 147 + counter * 170);
                     titleToShow.Name = "title" + counter;
                     titleToShow.Size = new System.Drawing.Size(771, 20);
                     titleToShow.TabIndex = 2 + counter;
@@ -145,7 +145,7 @@ namespace TaxeiaAnaptuksi_Gerovasilis_Kypraios
 
 
                     var bodyToShow = new RichTextBox();
-                    bodyToShow.Location = new System.Drawing.Point(12, 198 + counter * 170);
+                    bodyToShow.Location = new System.Drawing.Point(350, 198 + counter * 170);
                     bodyToShow.Name = "title" + counter;
                     bodyToShow.Size = new System.Drawing.Size(771, 72);
                     bodyToShow.TabIndex = 6 + counter;
@@ -168,7 +168,7 @@ namespace TaxeiaAnaptuksi_Gerovasilis_Kypraios
                     var titleShowing = new Label();
                     titleShowing.AutoSize = true;
                     titleShowing.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
-                    titleShowing.Location = new System.Drawing.Point(12, 125 + counter * 170);
+                    titleShowing.Location = new System.Drawing.Point(350, 125 + counter * 170);
                     titleShowing.Name = "label0" + counter;
                     titleShowing.Size = new System.Drawing.Size(38, 19);
                     titleShowing.TabIndex = 4 + counter;
@@ -178,7 +178,7 @@ namespace TaxeiaAnaptuksi_Gerovasilis_Kypraios
                     var bodyShowing = new Label();
                     bodyShowing.AutoSize = true;
                     bodyShowing.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
-                    bodyShowing.Location = new System.Drawing.Point(12, 176 + counter * 170);
+                    bodyShowing.Location = new System.Drawing.Point(350, 176 + counter * 170);
                     bodyShowing.Name = "label0" + counter;
                     bodyShowing.Size = new System.Drawing.Size(41, 19);
                     bodyShowing.TabIndex = 7 + counter;
