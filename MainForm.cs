@@ -239,6 +239,13 @@ private void exitToolStripMenuItem_Click(object sender, EventArgs e)
             financialProfessors.ShowDialog();
             this.Close();
         }
+private void button1_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            MenuSitisis sitisi = new MenuSitisis();
+            sitisi.ShowDialog();
+            this.Close();
+        }
     }
 }
 

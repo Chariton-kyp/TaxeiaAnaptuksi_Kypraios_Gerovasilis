@@ -108,6 +108,8 @@
             this.label8 = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
             this.panel36 = new System.Windows.Forms.Panel();
+            this.button1 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
             this.richTextBox1 = new System.Windows.Forms.RichTextBox();
             this.richTextBox2 = new System.Windows.Forms.RichTextBox();
             this.daycontainer.SuspendLayout();
@@ -1050,12 +1052,33 @@
             this.richTextBox2.Size = new System.Drawing.Size(335, 174);
             this.richTextBox2.TabIndex = 1;
             this.richTextBox2.Text = "Produced Academic Purposes\n\nUniversity of Piraeus\n\nΤαχεία Ανάπτυξη Εφαρμογών";
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(1085, 643);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(118, 32);
+            this.button1.TabIndex = 10;
+            this.button1.Text = "Αρχικό Μενού";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(949, 643);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(118, 32);
+            this.button2.TabIndex = 11;
+            this.button2.Text = "About";
+            this.button2.UseVisualStyleBackColor = true;
+            // 
             // 
             // CalendarEvents
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1710, 974);
+            this.Controls.Add(this.button2);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.panel36);
             this.Controls.Add(this.label14);
             this.Controls.Add(this.label3);
@@ -1221,5 +1244,7 @@
         private System.Windows.Forms.Panel panel36;
         private System.Windows.Forms.RichTextBox richTextBox2;
         private System.Windows.Forms.RichTextBox richTextBox1;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button button2;
     }
 }
