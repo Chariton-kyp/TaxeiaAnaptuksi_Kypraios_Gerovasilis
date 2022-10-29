@@ -112,6 +112,17 @@
             this.panel36 = new System.Windows.Forms.Panel();
             this.richTextBox8 = new System.Windows.Forms.RichTextBox();
             this.richTextBox9 = new System.Windows.Forms.RichTextBox();
+            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
+            this.mainToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.reviewsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.exitToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.σχολέςToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.τμήμαΠληροφορικήςToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.καθηγητέςToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.τμήμαΟΔΕToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.καθηγητέςToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.τμήμαΟικονομικώνToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.καθηγητέςToolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
             this.daycontainer.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
@@ -144,6 +155,7 @@
             this.panel30.SuspendLayout();
             this.panel31.SuspendLayout();
             this.panel36.SuspendLayout();
+            this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // daycontainer
@@ -1065,6 +1077,7 @@
             this.richTextBox9.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
             this.richTextBox9.ForeColor = System.Drawing.Color.White;
             this.richTextBox9.Location = new System.Drawing.Point(102, 23);
+            this.richTextBox9.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.richTextBox9.Name = "richTextBox9";
             this.richTextBox9.ReadOnly = true;
             this.richTextBox9.Size = new System.Drawing.Size(335, 174);
@@ -1072,11 +1085,104 @@
             this.richTextBox9.Text = " ΣΤΟΙΧΕΙΑ ΕΠΙΚΟΙΝΩΝΙΑΣ\n Διεύθυνση: Μ. Καραολή & Α. Δημητρίου 80, \n18534 Πειραιάς\n" +
     "\n Τηλ. Κέντρο: 210 4142000\n\n Fax: 210 4142328";
             // 
+            // menuStrip1
+            // 
+            this.menuStrip1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(44)))), ((int)(((byte)(84)))));
+            this.menuStrip1.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
+            this.menuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
+            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.mainToolStripMenuItem,
+            this.reviewsToolStripMenuItem,
+            this.exitToolStripMenuItem,
+            this.σχολέςToolStripMenuItem});
+            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
+            this.menuStrip1.Name = "menuStrip1";
+            this.menuStrip1.Padding = new System.Windows.Forms.Padding(7, 2, 0, 2);
+            this.menuStrip1.Size = new System.Drawing.Size(1868, 32);
+            this.menuStrip1.TabIndex = 27;
+            this.menuStrip1.Text = "menuStrip1";
+            // 
+            // mainToolStripMenuItem
+            // 
+            this.mainToolStripMenuItem.ForeColor = System.Drawing.Color.White;
+            this.mainToolStripMenuItem.Name = "mainToolStripMenuItem";
+            this.mainToolStripMenuItem.Size = new System.Drawing.Size(67, 28);
+            this.mainToolStripMenuItem.Text = "Main";
+            // 
+            // reviewsToolStripMenuItem
+            // 
+            this.reviewsToolStripMenuItem.ForeColor = System.Drawing.Color.White;
+            this.reviewsToolStripMenuItem.Name = "reviewsToolStripMenuItem";
+            this.reviewsToolStripMenuItem.Size = new System.Drawing.Size(91, 28);
+            this.reviewsToolStripMenuItem.Text = "Reviews";
+            // 
+            // exitToolStripMenuItem
+            // 
+            this.exitToolStripMenuItem.Alignment = System.Windows.Forms.ToolStripItemAlignment.Right;
+            this.exitToolStripMenuItem.ForeColor = System.Drawing.Color.White;
+            this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
+            this.exitToolStripMenuItem.Size = new System.Drawing.Size(55, 28);
+            this.exitToolStripMenuItem.Text = "Exit";
+            // 
+            // σχολέςToolStripMenuItem
+            // 
+            this.σχολέςToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.τμήμαΠληροφορικήςToolStripMenuItem,
+            this.τμήμαΟΔΕToolStripMenuItem,
+            this.τμήμαΟικονομικώνToolStripMenuItem});
+            this.σχολέςToolStripMenuItem.ForeColor = System.Drawing.Color.White;
+            this.σχολέςToolStripMenuItem.Name = "σχολέςToolStripMenuItem";
+            this.σχολέςToolStripMenuItem.Size = new System.Drawing.Size(97, 28);
+            this.σχολέςToolStripMenuItem.Text = "Τμήματα";
+            // 
+            // τμήμαΠληροφορικήςToolStripMenuItem
+            // 
+            this.τμήμαΠληροφορικήςToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.καθηγητέςToolStripMenuItem});
+            this.τμήμαΠληροφορικήςToolStripMenuItem.Name = "τμήμαΠληροφορικήςToolStripMenuItem";
+            this.τμήμαΠληροφορικήςToolStripMenuItem.Size = new System.Drawing.Size(273, 28);
+            this.τμήμαΠληροφορικήςToolStripMenuItem.Text = "Τμήμα Πληροφορικής";
+            // 
+            // καθηγητέςToolStripMenuItem
+            // 
+            this.καθηγητέςToolStripMenuItem.Name = "καθηγητέςToolStripMenuItem";
+            this.καθηγητέςToolStripMenuItem.Size = new System.Drawing.Size(182, 28);
+            this.καθηγητέςToolStripMenuItem.Text = "Καθηγητές";
+            // 
+            // τμήμαΟΔΕToolStripMenuItem
+            // 
+            this.τμήμαΟΔΕToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.καθηγητέςToolStripMenuItem1});
+            this.τμήμαΟΔΕToolStripMenuItem.Name = "τμήμαΟΔΕToolStripMenuItem";
+            this.τμήμαΟΔΕToolStripMenuItem.Size = new System.Drawing.Size(273, 28);
+            this.τμήμαΟΔΕToolStripMenuItem.Text = "Τμήμα ΟΔΕ";
+            // 
+            // καθηγητέςToolStripMenuItem1
+            // 
+            this.καθηγητέςToolStripMenuItem1.Name = "καθηγητέςToolStripMenuItem1";
+            this.καθηγητέςToolStripMenuItem1.Size = new System.Drawing.Size(182, 28);
+            this.καθηγητέςToolStripMenuItem1.Text = "Καθηγητές";
+            // 
+            // τμήμαΟικονομικώνToolStripMenuItem
+            // 
+            this.τμήμαΟικονομικώνToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.καθηγητέςToolStripMenuItem2});
+            this.τμήμαΟικονομικώνToolStripMenuItem.Name = "τμήμαΟικονομικώνToolStripMenuItem";
+            this.τμήμαΟικονομικώνToolStripMenuItem.Size = new System.Drawing.Size(273, 28);
+            this.τμήμαΟικονομικώνToolStripMenuItem.Text = "Τμήμα Οικονομικών";
+            // 
+            // καθηγητέςToolStripMenuItem2
+            // 
+            this.καθηγητέςToolStripMenuItem2.Name = "καθηγητέςToolStripMenuItem2";
+            this.καθηγητέςToolStripMenuItem2.Size = new System.Drawing.Size(182, 28);
+            this.καθηγητέςToolStripMenuItem2.Text = "Καθηγητές";
+            // 
             // CalendarEvents
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1611, 892);
+            this.Controls.Add(this.menuStrip1);
             this.Controls.Add(this.panel36);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
@@ -1156,6 +1262,8 @@
             this.panel31.ResumeLayout(false);
             this.panel31.PerformLayout();
             this.panel36.ResumeLayout(false);
+            this.menuStrip1.ResumeLayout(false);
+            this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -1247,5 +1355,16 @@
         private System.Windows.Forms.Panel panel36;
         private System.Windows.Forms.RichTextBox richTextBox8;
         private System.Windows.Forms.RichTextBox richTextBox9;
+        private System.Windows.Forms.MenuStrip menuStrip1;
+        private System.Windows.Forms.ToolStripMenuItem mainToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem reviewsToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem exitToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem σχολέςToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem τμήμαΠληροφορικήςToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem καθηγητέςToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem τμήμαΟΔΕToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem καθηγητέςToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem τμήμαΟικονομικώνToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem καθηγητέςToolStripMenuItem2;
     }
 }
