@@ -16,7 +16,7 @@ namespace TaxeiaAnaptuksi_Gerovasilis_Kypraios
             GoFullscreen(true);
             this.user = user;
 
-            if (this.user == "amonymous" || this.user == "")
+            if (this.user == "anonymous" || this.user == "")
             {
                 label5.Visible = false;
                 linkLabel3.Visible = false;

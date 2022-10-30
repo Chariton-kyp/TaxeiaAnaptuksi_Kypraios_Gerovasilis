@@ -75,11 +75,21 @@ namespace TaxeiaAnaptuksi_Gerovasilis_Kypraios
 
             try
             {
-
+                var saveAccepted = false;
                 // save the application  
-                workingbook.SaveCopyAs("FinancialsDataGrid.xlsx");
+                try
+                {
+                    workingbook.SaveAs("FinancialsDataGrid.xlsx");
+                    app.Quit();
+                }
+                catch (Exception ex)
+                {
+                    workingbook.SaveCopyAs("FinancialsDataGrid.xlsx");
+                    app.Quit();
+                }
+
                 // Exit from the application  
-                app.Quit();
+
             }
             catch (Exception ex)
             {

@@ -79,7 +79,7 @@ namespace TaxeiaAnaptuksi_Gerovasilis_Kypraios
                 {
                     MessageBox.Show("Successfully registered");
                     this.Hide();
-                    MainForm mainForm = new MainForm("");
+                    MainForm mainForm = new MainForm(user);
                     mainForm.ShowDialog();
                     this.Close();
                 }

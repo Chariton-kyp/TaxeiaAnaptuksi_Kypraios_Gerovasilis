@@ -170,3 +170,4 @@ C:\Users\gerob\OneDrive\Desktop\teliki_ergasia\TaxeiaAnaptixiEfarmogwn\obj\Debug
 C:\Users\gerob\OneDrive\Desktop\teliki_ergasia\TaxeiaAnaptixiEfarmogwn\obj\Debug\TaxeiaAnaptuksi_Gerovasilis_Kypraios.exe
 C:\Users\gerob\OneDrive\Desktop\teliki_ergasia\TaxeiaAnaptixiEfarmogwn\obj\Debug\TaxeiaAnaptuksi_Gerovasilis_Kypraios.pdb
 C:\Users\gerob\OneDrive\Desktop\teliki_ergasia\TaxeiaAnaptixiEfarmogwn\obj\Debug\TaxeiaAnaptuksi_Gerovasilis_Kypraios.AboutForm.resources
+C:\Users\harit\Desktop\Μαθήματα Μεταπτυχιακό\Ταχεία Ανάπτυξη Εφαρμογών - C#\Teliki_Ergasia\TaxeiaAnaptuksi_Kypraios_Gerovasilis\obj\Debug\TaxeiaAnaptuksi_Gerovasilis_Kypraios.AboutForm.resources

@@ -100,7 +100,7 @@ namespace TaxeiaAnaptuksi_Gerovasilis_Kypraios
             connection2.Open();
             try
             {
-                string insertSQL = "Insert into Reviews (description,usersId,title) VALUES ('" + description + "','" + usersId + "','" + title + "','" + usersUsername + "')";
+                string insertSQL = "Insert into Reviews (description,usersId,title,usersUsername) VALUES ('" + description + "','" + usersId + "','" + title + "','" + usersUsername + "')";
                 SQLiteCommand cmd = new SQLiteCommand(insertSQL, connection2);
                 int count = cmd.ExecuteNonQuery();
                 if (count > 0)
@@ -140,17 +140,17 @@ namespace TaxeiaAnaptuksi_Gerovasilis_Kypraios
                     titleToShow.Name = "title" + counter;
                     titleToShow.Size = new System.Drawing.Size(771, 20);
                     titleToShow.TabIndex = 2 + counter;
-                    titleToShow.Text = reader.GetString(1);
+                    titleToShow.Text = reader.GetString(3);
                     this.Controls.Add(titleToShow);
                     titleToShow.ReadOnly = true;
 
 
                     var bodyToShow = new RichTextBox();
                     bodyToShow.Location = new System.Drawing.Point(350, 198 + counter * 170);
-                    bodyToShow.Name = "title" + counter;
+                    bodyToShow.Name = "body" + counter;
                     bodyToShow.Size = new System.Drawing.Size(771, 72);
                     bodyToShow.TabIndex = 6 + counter;
-                    bodyToShow.Text = reader.GetString(3);
+                    bodyToShow.Text = reader.GetString(1);
                     this.Controls.Add(bodyToShow);
                     bodyToShow.ReadOnly = true;
 
