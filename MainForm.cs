@@ -253,7 +253,7 @@ namespace TaxeiaAnaptuksi_Gerovasilis_Kypraios
         {
 
         }
-private void mainToolStripMenuItem_Click(object sender, EventArgs e)
+        private void mainToolStripMenuItem_Click(object sender, EventArgs e)
         {
             this.Hide();
             MainForm mainform = new MainForm(user);
@@ -289,6 +289,11 @@ private void mainToolStripMenuItem_Click(object sender, EventArgs e)
             AboutForm about = new AboutForm(user);
             about.ShowDialog();
             this.Close();
+        }
+
+        private void σχολέςToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

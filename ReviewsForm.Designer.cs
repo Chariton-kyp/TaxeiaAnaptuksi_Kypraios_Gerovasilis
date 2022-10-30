@@ -69,7 +69,7 @@
             // button1
             // 
             this.button1.Location = new System.Drawing.Point(467, 290);
-            this.button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button1.Margin = new System.Windows.Forms.Padding(4);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(168, 43);
             this.button1.TabIndex = 1;
@@ -80,7 +80,7 @@
             // title
             // 
             this.title.Location = new System.Drawing.Point(467, 132);
-            this.title.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.title.Margin = new System.Windows.Forms.Padding(4);
             this.title.Name = "title";
             this.title.Size = new System.Drawing.Size(1027, 22);
             this.title.TabIndex = 2;
@@ -88,7 +88,7 @@
             // body
             // 
             this.body.Location = new System.Drawing.Point(467, 194);
-            this.body.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.body.Margin = new System.Windows.Forms.Padding(4);
             this.body.Name = "body";
             this.body.Size = new System.Drawing.Size(1027, 88);
             this.body.TabIndex = 3;
@@ -122,7 +122,7 @@
             this.panel36.Controls.Add(this.richTextBox8);
             this.panel36.Controls.Add(this.richTextBox9);
             this.panel36.Location = new System.Drawing.Point(3, 777);
-            this.panel36.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel36.Margin = new System.Windows.Forms.Padding(4);
             this.panel36.Name = "panel36";
             this.panel36.Size = new System.Drawing.Size(2148, 322);
             this.panel36.TabIndex = 27;
@@ -134,7 +134,7 @@
             this.richTextBox8.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
             this.richTextBox8.ForeColor = System.Drawing.Color.White;
             this.richTextBox8.Location = new System.Drawing.Point(1328, 28);
-            this.richTextBox8.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.richTextBox8.Margin = new System.Windows.Forms.Padding(4);
             this.richTextBox8.Name = "richTextBox8";
             this.richTextBox8.ReadOnly = true;
             this.richTextBox8.Size = new System.Drawing.Size(447, 214);
@@ -148,7 +148,7 @@
             this.richTextBox9.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
             this.richTextBox9.ForeColor = System.Drawing.Color.White;
             this.richTextBox9.Location = new System.Drawing.Point(136, 28);
-            this.richTextBox9.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.richTextBox9.Margin = new System.Windows.Forms.Padding(4);
             this.richTextBox9.Name = "richTextBox9";
             this.richTextBox9.ReadOnly = true;
             this.richTextBox9.Size = new System.Drawing.Size(447, 214);
@@ -199,6 +199,7 @@
             this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
             this.exitToolStripMenuItem.Size = new System.Drawing.Size(55, 28);
             this.exitToolStripMenuItem.Text = "Exit";
+            this.exitToolStripMenuItem.Click += new System.EventHandler(this.exitToolStripMenuItem_Click);
             // 
             // σχολέςToolStripMenuItem
             // 
@@ -223,7 +224,7 @@
             // καθηγητέςToolStripMenuItem
             // 
             this.καθηγητέςToolStripMenuItem.Name = "καθηγητέςToolStripMenuItem";
-            this.καθηγητέςToolStripMenuItem.Size = new System.Drawing.Size(224, 28);
+            this.καθηγητέςToolStripMenuItem.Size = new System.Drawing.Size(182, 28);
             this.καθηγητέςToolStripMenuItem.Text = "Καθηγητές";
             this.καθηγητέςToolStripMenuItem.Click += new System.EventHandler(this.καθηγητέςToolStripMenuItem_Click);
             // 
@@ -239,7 +240,7 @@
             // καθηγητέςToolStripMenuItem1
             // 
             this.καθηγητέςToolStripMenuItem1.Name = "καθηγητέςToolStripMenuItem1";
-            this.καθηγητέςToolStripMenuItem1.Size = new System.Drawing.Size(224, 28);
+            this.καθηγητέςToolStripMenuItem1.Size = new System.Drawing.Size(182, 28);
             this.καθηγητέςToolStripMenuItem1.Text = "Καθηγητές";
             this.καθηγητέςToolStripMenuItem1.Click += new System.EventHandler(this.καθηγητέςToolStripMenuItem1_Click);
             // 
@@ -255,7 +256,7 @@
             // καθηγητέςToolStripMenuItem2
             // 
             this.καθηγητέςToolStripMenuItem2.Name = "καθηγητέςToolStripMenuItem2";
-            this.καθηγητέςToolStripMenuItem2.Size = new System.Drawing.Size(224, 28);
+            this.καθηγητέςToolStripMenuItem2.Size = new System.Drawing.Size(182, 28);
             this.καθηγητέςToolStripMenuItem2.Text = "Καθηγητές";
             this.καθηγητέςToolStripMenuItem2.Click += new System.EventHandler(this.καθηγητέςToolStripMenuItem2_Click);
             // 
@@ -296,7 +297,7 @@
             this.Controls.Add(this.title);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label1);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "ReviewsForm";
             this.Text = "ReviewsForm";
             this.Load += new System.EventHandler(this.ReviewsForm_Load);

@@ -284,5 +284,10 @@ namespace TaxeiaAnaptuksi_Gerovasilis_Kypraios
             about.ShowDialog();
             this.Close();
         }
+
+        private void exitToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }
