@@ -95,36 +95,6 @@ C:\Users\gerob\OneDrive\Desktop\ErgasiaTaxeiaAnaptuksi\TaxeiaAnaptixiEfarmogwn\o
 C:\Users\gerob\OneDrive\Desktop\ErgasiaTaxeiaAnaptuksi\TaxeiaAnaptixiEfarmogwn\obj\Debug\TaxeiaAnaptuksi_Gerovasilis_Kypraios.csproj.CopyComplete
 C:\Users\gerob\OneDrive\Desktop\ErgasiaTaxeiaAnaptuksi\TaxeiaAnaptixiEfarmogwn\obj\Debug\TaxeiaAnaptuksi_Gerovasilis_Kypraios.exe
 C:\Users\gerob\OneDrive\Desktop\ErgasiaTaxeiaAnaptuksi\TaxeiaAnaptixiEfarmogwn\obj\Debug\TaxeiaAnaptuksi_Gerovasilis_Kypraios.pdb
-C:\Users\gerob\OneDrive\Desktop\teliki_ergasia\TaxeiaAnaptixiEfarmogwn\bin\Debug\TaxeiaAnaptuksi_Gerovasilis_Kypraios.exe.config
-C:\Users\gerob\OneDrive\Desktop\teliki_ergasia\TaxeiaAnaptixiEfarmogwn\bin\Debug\TaxeiaAnaptuksi_Gerovasilis_Kypraios.exe
-C:\Users\gerob\OneDrive\Desktop\teliki_ergasia\TaxeiaAnaptixiEfarmogwn\bin\Debug\TaxeiaAnaptuksi_Gerovasilis_Kypraios.pdb
-C:\Users\gerob\OneDrive\Desktop\teliki_ergasia\TaxeiaAnaptixiEfarmogwn\bin\Debug\EntityFramework.dll
-C:\Users\gerob\OneDrive\Desktop\teliki_ergasia\TaxeiaAnaptixiEfarmogwn\bin\Debug\EntityFramework.SqlServer.dll
-C:\Users\gerob\OneDrive\Desktop\teliki_ergasia\TaxeiaAnaptixiEfarmogwn\bin\Debug\System.Data.SQLite.dll
-C:\Users\gerob\OneDrive\Desktop\teliki_ergasia\TaxeiaAnaptixiEfarmogwn\bin\Debug\System.Data.SQLite.EF6.dll
-C:\Users\gerob\OneDrive\Desktop\teliki_ergasia\TaxeiaAnaptixiEfarmogwn\bin\Debug\System.Data.SQLite.Linq.dll
-C:\Users\gerob\OneDrive\Desktop\teliki_ergasia\TaxeiaAnaptixiEfarmogwn\bin\Debug\EntityFramework.xml
-C:\Users\gerob\OneDrive\Desktop\teliki_ergasia\TaxeiaAnaptixiEfarmogwn\bin\Debug\EntityFramework.SqlServer.xml
-C:\Users\gerob\OneDrive\Desktop\teliki_ergasia\TaxeiaAnaptixiEfarmogwn\bin\Debug\System.Data.SQLite.xml
-C:\Users\gerob\OneDrive\Desktop\teliki_ergasia\TaxeiaAnaptixiEfarmogwn\bin\Debug\Interop.WMPLib.dll
-C:\Users\gerob\OneDrive\Desktop\teliki_ergasia\TaxeiaAnaptixiEfarmogwn\bin\Debug\AxInterop.WMPLib.dll
-C:\Users\gerob\OneDrive\Desktop\teliki_ergasia\TaxeiaAnaptixiEfarmogwn\obj\Debug\TaxeiaAnaptuksi_Gerovasilis_Kypraios.csproj.AssemblyReference.cache
-C:\Users\gerob\OneDrive\Desktop\teliki_ergasia\TaxeiaAnaptixiEfarmogwn\obj\Debug\TaxeiaAnaptuksi_Gerovasilis_Kypraios.csproj.SuggestedBindingRedirects.cache
-C:\Users\gerob\OneDrive\Desktop\teliki_ergasia\TaxeiaAnaptixiEfarmogwn\obj\Debug\Interop.WMPLib.dll
-C:\Users\gerob\OneDrive\Desktop\teliki_ergasia\TaxeiaAnaptixiEfarmogwn\obj\Debug\AxInterop.WMPLib.dll
-C:\Users\gerob\OneDrive\Desktop\teliki_ergasia\TaxeiaAnaptixiEfarmogwn\obj\Debug\TaxeiaAnaptuksi_Gerovasilis_Kypraios.csproj.ResolveComReference.cache
-C:\Users\gerob\OneDrive\Desktop\teliki_ergasia\TaxeiaAnaptixiEfarmogwn\obj\Debug\TaxeiaAnaptuksi_Gerovasilis_Kypraios.CalendarEvents.resources
-C:\Users\gerob\OneDrive\Desktop\teliki_ergasia\TaxeiaAnaptixiEfarmogwn\obj\Debug\TaxeiaAnaptuksi_Gerovasilis_Kypraios.Video.resources
-C:\Users\gerob\OneDrive\Desktop\teliki_ergasia\TaxeiaAnaptixiEfarmogwn\obj\Debug\TaxeiaAnaptuksi_Gerovasilis_Kypraios.Login.resources
-C:\Users\gerob\OneDrive\Desktop\teliki_ergasia\TaxeiaAnaptixiEfarmogwn\obj\Debug\TaxeiaAnaptuksi_Gerovasilis_Kypraios.MainForm.resources
-C:\Users\gerob\OneDrive\Desktop\teliki_ergasia\TaxeiaAnaptixiEfarmogwn\obj\Debug\TaxeiaAnaptuksi_Gerovasilis_Kypraios.Properties.Resources.resources
-C:\Users\gerob\OneDrive\Desktop\teliki_ergasia\TaxeiaAnaptixiEfarmogwn\obj\Debug\TaxeiaAnaptuksi_Gerovasilis_Kypraios.Register.resources
-C:\Users\gerob\OneDrive\Desktop\teliki_ergasia\TaxeiaAnaptixiEfarmogwn\obj\Debug\TaxeiaAnaptuksi_Gerovasilis_Kypraios.ReviewsForm.resources
-C:\Users\gerob\OneDrive\Desktop\teliki_ergasia\TaxeiaAnaptixiEfarmogwn\obj\Debug\TaxeiaAnaptuksi_Gerovasilis_Kypraios.csproj.GenerateResource.cache
-C:\Users\gerob\OneDrive\Desktop\teliki_ergasia\TaxeiaAnaptixiEfarmogwn\obj\Debug\TaxeiaAnaptuksi_Gerovasilis_Kypraios.csproj.CoreCompileInputs.cache
-C:\Users\gerob\OneDrive\Desktop\teliki_ergasia\TaxeiaAnaptixiEfarmogwn\obj\Debug\TaxeiaAnaptuksi_Gerovasilis_Kypraios.csproj.CopyComplete
-C:\Users\gerob\OneDrive\Desktop\teliki_ergasia\TaxeiaAnaptixiEfarmogwn\obj\Debug\TaxeiaAnaptuksi_Gerovasilis_Kypraios.exe
-C:\Users\gerob\OneDrive\Desktop\teliki_ergasia\TaxeiaAnaptixiEfarmogwn\obj\Debug\TaxeiaAnaptuksi_Gerovasilis_Kypraios.pdb
 C:\Users\harit\Desktop\Μαθήματα Μεταπτυχιακό\Ταχεία Ανάπτυξη Εφαρμογών - C#\Teliki_Ergasia\TaxeiaAnaptuksi_Kypraios_Gerovasilis\bin\Debug\TaxeiaAnaptuksi_Gerovasilis_Kypraios.exe.config
 C:\Users\harit\Desktop\Μαθήματα Μεταπτυχιακό\Ταχεία Ανάπτυξη Εφαρμογών - C#\Teliki_Ergasia\TaxeiaAnaptuksi_Kypraios_Gerovasilis\bin\Debug\TaxeiaAnaptuksi_Gerovasilis_Kypraios.exe
 C:\Users\harit\Desktop\Μαθήματα Μεταπτυχιακό\Ταχεία Ανάπτυξη Εφαρμογών - C#\Teliki_Ergasia\TaxeiaAnaptuksi_Kypraios_Gerovasilis\bin\Debug\TaxeiaAnaptuksi_Gerovasilis_Kypraios.pdb
@@ -162,3 +132,42 @@ C:\Users\harit\Desktop\Μαθήματα Μεταπτυχιακό\Ταχεία Α
 C:\Users\harit\Desktop\Μαθήματα Μεταπτυχιακό\Ταχεία Ανάπτυξη Εφαρμογών - C#\Teliki_Ergasia\TaxeiaAnaptuksi_Kypraios_Gerovasilis\obj\Debug\TaxeiaAnaptuksi_Gerovasilis_Kypraios.csproj.CopyComplete
 C:\Users\harit\Desktop\Μαθήματα Μεταπτυχιακό\Ταχεία Ανάπτυξη Εφαρμογών - C#\Teliki_Ergasia\TaxeiaAnaptuksi_Kypraios_Gerovasilis\obj\Debug\TaxeiaAnaptuksi_Gerovasilis_Kypraios.exe
 C:\Users\harit\Desktop\Μαθήματα Μεταπτυχιακό\Ταχεία Ανάπτυξη Εφαρμογών - C#\Teliki_Ergasia\TaxeiaAnaptuksi_Kypraios_Gerovasilis\obj\Debug\TaxeiaAnaptuksi_Gerovasilis_Kypraios.pdb
+C:\Users\gerob\OneDrive\Desktop\teliki_ergasia\TaxeiaAnaptixiEfarmogwn\bin\Debug\TaxeiaAnaptuksi_Gerovasilis_Kypraios.exe.config
+C:\Users\gerob\OneDrive\Desktop\teliki_ergasia\TaxeiaAnaptixiEfarmogwn\bin\Debug\TaxeiaAnaptuksi_Gerovasilis_Kypraios.exe
+C:\Users\gerob\OneDrive\Desktop\teliki_ergasia\TaxeiaAnaptixiEfarmogwn\bin\Debug\TaxeiaAnaptuksi_Gerovasilis_Kypraios.pdb
+C:\Users\gerob\OneDrive\Desktop\teliki_ergasia\TaxeiaAnaptixiEfarmogwn\bin\Debug\EntityFramework.dll
+C:\Users\gerob\OneDrive\Desktop\teliki_ergasia\TaxeiaAnaptixiEfarmogwn\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\gerob\OneDrive\Desktop\teliki_ergasia\TaxeiaAnaptixiEfarmogwn\bin\Debug\System.Data.SQLite.dll
+C:\Users\gerob\OneDrive\Desktop\teliki_ergasia\TaxeiaAnaptixiEfarmogwn\bin\Debug\System.Data.SQLite.EF6.dll
+C:\Users\gerob\OneDrive\Desktop\teliki_ergasia\TaxeiaAnaptixiEfarmogwn\bin\Debug\System.Data.SQLite.Linq.dll
+C:\Users\gerob\OneDrive\Desktop\teliki_ergasia\TaxeiaAnaptixiEfarmogwn\bin\Debug\EntityFramework.xml
+C:\Users\gerob\OneDrive\Desktop\teliki_ergasia\TaxeiaAnaptixiEfarmogwn\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\gerob\OneDrive\Desktop\teliki_ergasia\TaxeiaAnaptixiEfarmogwn\bin\Debug\System.Data.SQLite.xml
+C:\Users\gerob\OneDrive\Desktop\teliki_ergasia\TaxeiaAnaptixiEfarmogwn\bin\Debug\Interop.WMPLib.dll
+C:\Users\gerob\OneDrive\Desktop\teliki_ergasia\TaxeiaAnaptixiEfarmogwn\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\gerob\OneDrive\Desktop\teliki_ergasia\TaxeiaAnaptixiEfarmogwn\obj\Debug\TaxeiaAnaptuksi_Gerovasilis_Kypraios.csproj.AssemblyReference.cache
+C:\Users\gerob\OneDrive\Desktop\teliki_ergasia\TaxeiaAnaptixiEfarmogwn\obj\Debug\TaxeiaAnaptuksi_Gerovasilis_Kypraios.csproj.SuggestedBindingRedirects.cache
+C:\Users\gerob\OneDrive\Desktop\teliki_ergasia\TaxeiaAnaptixiEfarmogwn\obj\Debug\Interop.WMPLib.dll
+C:\Users\gerob\OneDrive\Desktop\teliki_ergasia\TaxeiaAnaptixiEfarmogwn\obj\Debug\AxInterop.WMPLib.dll
+C:\Users\gerob\OneDrive\Desktop\teliki_ergasia\TaxeiaAnaptixiEfarmogwn\obj\Debug\TaxeiaAnaptuksi_Gerovasilis_Kypraios.csproj.ResolveComReference.cache
+C:\Users\gerob\OneDrive\Desktop\teliki_ergasia\TaxeiaAnaptixiEfarmogwn\obj\Debug\TaxeiaAnaptuksi_Gerovasilis_Kypraios.DepartmentOfFinancials.resources
+C:\Users\gerob\OneDrive\Desktop\teliki_ergasia\TaxeiaAnaptixiEfarmogwn\obj\Debug\TaxeiaAnaptuksi_Gerovasilis_Kypraios.DepartmentOfInformartics.resources
+C:\Users\gerob\OneDrive\Desktop\teliki_ergasia\TaxeiaAnaptixiEfarmogwn\obj\Debug\TaxeiaAnaptuksi_Gerovasilis_Kypraios.DepartmentOfOde.resources
+C:\Users\gerob\OneDrive\Desktop\teliki_ergasia\TaxeiaAnaptixiEfarmogwn\obj\Debug\TaxeiaAnaptuksi_Gerovasilis_Kypraios.FinancialProfessors.resources
+C:\Users\gerob\OneDrive\Desktop\teliki_ergasia\TaxeiaAnaptixiEfarmogwn\obj\Debug\TaxeiaAnaptuksi_Gerovasilis_Kypraios.InformaticsProfessors.resources
+C:\Users\gerob\OneDrive\Desktop\teliki_ergasia\TaxeiaAnaptixiEfarmogwn\obj\Debug\TaxeiaAnaptuksi_Gerovasilis_Kypraios.CalendarEvents.resources
+C:\Users\gerob\OneDrive\Desktop\teliki_ergasia\TaxeiaAnaptixiEfarmogwn\obj\Debug\TaxeiaAnaptuksi_Gerovasilis_Kypraios.MenuSitisis.resources
+C:\Users\gerob\OneDrive\Desktop\teliki_ergasia\TaxeiaAnaptixiEfarmogwn\obj\Debug\TaxeiaAnaptuksi_Gerovasilis_Kypraios.Video.resources
+C:\Users\gerob\OneDrive\Desktop\teliki_ergasia\TaxeiaAnaptixiEfarmogwn\obj\Debug\TaxeiaAnaptuksi_Gerovasilis_Kypraios.Login.resources
+C:\Users\gerob\OneDrive\Desktop\teliki_ergasia\TaxeiaAnaptixiEfarmogwn\obj\Debug\TaxeiaAnaptuksi_Gerovasilis_Kypraios.MainForm.resources
+C:\Users\gerob\OneDrive\Desktop\teliki_ergasia\TaxeiaAnaptixiEfarmogwn\obj\Debug\TaxeiaAnaptuksi_Gerovasilis_Kypraios.OdeProfessors.resources
+C:\Users\gerob\OneDrive\Desktop\teliki_ergasia\TaxeiaAnaptixiEfarmogwn\obj\Debug\TaxeiaAnaptuksi_Gerovasilis_Kypraios.Properties.Resources.resources
+C:\Users\gerob\OneDrive\Desktop\teliki_ergasia\TaxeiaAnaptixiEfarmogwn\obj\Debug\TaxeiaAnaptuksi_Gerovasilis_Kypraios.Register.resources
+C:\Users\gerob\OneDrive\Desktop\teliki_ergasia\TaxeiaAnaptixiEfarmogwn\obj\Debug\TaxeiaAnaptuksi_Gerovasilis_Kypraios.ReviewsForm.resources
+C:\Users\gerob\OneDrive\Desktop\teliki_ergasia\TaxeiaAnaptixiEfarmogwn\obj\Debug\TaxeiaAnaptuksi_Gerovasilis_Kypraios.csproj.GenerateResource.cache
+C:\Users\gerob\OneDrive\Desktop\teliki_ergasia\TaxeiaAnaptixiEfarmogwn\obj\Debug\TaxeiaAnaptuksi_Gerovasilis_Kypraios.csproj.CoreCompileInputs.cache
+C:\Users\gerob\OneDrive\Desktop\teliki_ergasia\TaxeiaAnaptixiEfarmogwn\obj\Debug\TaxeiaAnaptuksi_Gerovasilis_Kypraios.csproj.CopyComplete
+C:\Users\gerob\OneDrive\Desktop\teliki_ergasia\TaxeiaAnaptixiEfarmogwn\obj\Debug\TaxeiaAnaptuksi_Gerovasilis_Kypraios.exe
+C:\Users\gerob\OneDrive\Desktop\teliki_ergasia\TaxeiaAnaptixiEfarmogwn\obj\Debug\TaxeiaAnaptuksi_Gerovasilis_Kypraios.pdb
+C:\Users\gerob\OneDrive\Desktop\teliki_ergasia\TaxeiaAnaptixiEfarmogwn\obj\Debug\TaxeiaAnaptuksi_Gerovasilis_Kypraios.AboutForm.resources
+C:\Users\harit\Desktop\Μαθήματα Μεταπτυχιακό\Ταχεία Ανάπτυξη Εφαρμογών - C#\Teliki_Ergasia\TaxeiaAnaptuksi_Kypraios_Gerovasilis\obj\Debug\TaxeiaAnaptuksi_Gerovasilis_Kypraios.AboutForm.resources
