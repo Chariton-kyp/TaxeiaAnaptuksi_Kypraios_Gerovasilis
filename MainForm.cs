@@ -274,6 +274,22 @@ private void mainToolStripMenuItem_Click(object sender, EventArgs e)
         {
 
         }
+
+        private void εκδηλώσειςToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            CalendarEvents calendarEvents = new CalendarEvents(this.user);
+            calendarEvents.ShowDialog();
+            this.Close();
+        }
+
+        private void aboutToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            AboutForm about = new AboutForm(user);
+            about.ShowDialog();
+            this.Close();
+        }
     }
 }
 
