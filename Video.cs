@@ -26,8 +26,10 @@ namespace TaxeiaAnaptuksi_Gerovasilis_Kypraios
             InitializeComponent();
             GoFullscreen(true);
             this.user = user;
-            if (this.user == "anonymous" || this.user == "")
-            { }
+            if (this.user == "anonymous" || this.user == "") { }
+
+
+
         }
 
         private void axWindowsMediaPlayer1_Enter(object sender, EventArgs e)
@@ -54,8 +56,6 @@ namespace TaxeiaAnaptuksi_Gerovasilis_Kypraios
         {
             axWindowsMediaPlayer1.URL = @"Assets\Videos\video.mp4";
             axWindowsMediaPlayer1.Ctlcontrols.play();
-
-
         }
 
         private void axWindowsMediaPlayer1_Enter_1(object sender, EventArgs e)
@@ -75,9 +75,9 @@ namespace TaxeiaAnaptuksi_Gerovasilis_Kypraios
 
         private void αρχικήΣελίδαToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            
-        
-            
+
+
+
         }
 
         private void mainToolStripMenuItem_Click(object sender, EventArgs e)

@@ -95,6 +95,7 @@ namespace TaxeiaAnaptuksi_Gerovasilis_Kypraios
             label3.Visible = true;
             linkLabel3.Visible = false;
             label5.Visible = false;
+            button1.Visible = false;
         }
 
         private void label5_Click(object sender, EventArgs e)
